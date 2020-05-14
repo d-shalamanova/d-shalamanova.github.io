@@ -1,3 +1,3 @@
 # d-shalamanova.github.io
 
-https://d-shalamanova.github.io/Beats-flex/
+Just simple portfolio, sorry it's not responsive for now...

@@ -1,54 +1,35 @@
 .site-nav{
-
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    border-top: 1px solid orange;
+    border-bottom: 1px solid orange;
 }
 
 .site-nav ul{
     padding: 0;
     margin: 0;
-    background-color: #333;
-
+    background-color: #fff;
 }
 
-.site-nav ul ul{
-    display: none;
-    position: absolute;
-    top: 100%;
-    left:0;
-    min-width: 10em;
-    background-color: #000;
-}
-
-.site-nav ul ul ul{
-    top: 0;
-    left: 100%;
-}
-
-.site-nav > ul > li{
+.site-nav ul li{
     float: left;
-}
-
-.site-nav li:hover > ul{
-    display: block;;
-}
-
-.site-nav li{
-    display: block;
-    list-style: none outside;
-    position: relative;
+    list-style: none;
 }
 
 .site-nav a{
     display: block;   
-    color: #fff;
+    color: #000;
     padding: 1em 1.5em;
     text-decoration: none;
+    text-transform: uppercase;
 }
 
-
 .site-nav li:hover > a{
-    background: #090;
+    background: rgb(255,165,0,1);
 }
 
 .site-nav a:hover{
-    background: #090;
+    background: rgb(255,165,0,1);
+    color: #fff;
 }

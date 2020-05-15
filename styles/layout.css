@@ -1,0 +1,74 @@
+.site {
+    max-width: 60em;
+    margin: 0 auto;
+}
+
+.site-header{
+    padding-top: 15em;
+    padding-left: 1em;
+    height: 400px;
+    width: 60em;
+    background-position: right bottom, left top;
+    background-repeat: no-repeat, repeat;
+    background-image: linear-gradient( to right, rgb(255, 251, 251,1), rgba(255, 204, 38, 0)), url('background.jpg');
+    background-size: cover, cover;
+}
+
+.site-content{
+    display: flex;
+    background-position: right bottom, left top;
+    background-image: linear-gradient( to right, rgb(255, 251, 251,1), rgba(255, 255, 255, 0.1)), url('flower.png');
+    background-repeat: no-repeat, no-repeat;
+    background-size: cover, cover;
+}
+
+main{
+    padding: 1em;
+    flex: 1 0 60%;
+    text-align: center;
+}
+
+.site-sidebar{
+    padding: 1em;
+    flex: 1 0 40%;
+    text-align: center;
+}
+
+.wrapper-content{
+    padding-top: 1em;
+padding-bottom: 1em;
+}
+
+main img{
+    width: 60%;
+    height: auto; 
+    border: 1px solid orange;
+    box-shadow: 0.5rem 0.5rem 0.5rem 0.1em rgba(0, 0, 0, 0.3);
+}
+
+
+.site-sidebar img{
+   width: 60%;
+   height: auto; 
+   border: 1px solid orange;
+   box-shadow: 0.5rem 0.5rem 0.5rem 0.1em rgba(0, 0, 0, 0.3);
+}
+
+.site-sidebar img:hover{
+   box-shadow: 0.5rem 0.5rem 0.5rem 0.1em rgba(255, 165, 0, 0.2);
+}
+
+.logo{
+    width: 130px;
+    height: auto;
+    margin: auto;
+}
+.site-footer{
+    padding-top: 1em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top: 1px solid orange;
+}
+
+

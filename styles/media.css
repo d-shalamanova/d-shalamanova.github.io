@@ -1,0 +1,195 @@
+/*Responsive*/
+
+@media (min-width: 992px) and (max-width:1199px){
+
+	/*Header*/
+    header {
+        height: 80vh;
+    }
+    .site-header {
+        padding: 2em 1.5em;
+    }
+    .site-header p {
+        font-size: 1em;
+    }
+
+    .site-title {
+        padding: 1em;
+    }
+    .site-title h1 {
+        margin-bottom: 20px;
+        font-size: 1.4em;
+    }
+
+    /*Main*/
+    h2 {
+        font-size: 1.5em;
+    }
+    .site-wrapper .site-title{
+        padding: 0.8em;
+    }
+
+    /*Lists*/
+    ul {
+        font-size: 15px;
+    }
+    ul.hard-list li span, 
+    ul.soft-list li span {
+        font-size: 21px;
+    }
+    ul.hard-list li svg, 
+    ul.soft-list li svg {
+        width: 34px;
+    }
+
+}
+@media (min-width: 768px) and (max-width:991px){
+
+	/*Header*/
+    header {
+        height: 50vh;
+    }
+
+    .site-header {
+        padding: 1em;
+    }
+    .site-header p {
+        font-size: 1em;
+        line-height: 1.1;
+        padding-bottom: 1em;
+    }
+    .site-title {
+        padding: 1em;
+    }
+    .site-title h1 {
+        margin-bottom: 15px;
+        font-size: 1.2em;
+    }
+	.site-logo {
+	    padding-right: 0;
+	    padding-bottom: 0.5em;
+	}
+    /*Main*/
+    h2 {
+        font-size: 1.3em;
+    }
+    p {
+        font-size: 0.9em;
+    }
+    .site-wrapper .site-title{
+        padding: 0.8em;
+    }
+
+    /*Lists*/
+    ul {
+        font-size: 14px;
+    }
+    ul.hard-list li span, 
+    ul.soft-list li span {
+        font-size: 21px;
+    }
+    ul.hard-list li svg, 
+    ul.soft-list li svg {
+        width: 34px;
+    }
+    span.inner-link svg {
+        width: 30px;
+        height: auto;
+    }
+
+}
+@media(max-width:767px){
+    /*Header*/
+    header {
+        height: 40vh;
+    }
+    .site-header {
+        padding: 1em;
+		top: 50%;
+		left: 0%;
+		transform: translate(0%,-50%);
+		min-width: 100%;
+		justify-content: center;
+	}
+    .site-header p {
+        font-size: 1em;
+        line-height: 1.1;
+    }
+    .site-title {
+        padding: 1em;
+    }
+    .site-title h1 {
+        margin-bottom: 15px;
+        font-size: 1.2em;
+    }
+    .site-nav ul li a {
+    	padding: 0 1em
+	}
+
+    /*Main*/
+    main {
+        padding: 0.5em;
+    }
+    .flex-content {
+        flex-wrap: wrap;
+    }
+    .wrapper-text,
+    .wrapper-media {
+        flex: 1 0 100%;
+        min-width: 100%;
+    }
+    .wrapper-media-inner {
+        padding-bottom: 50%;
+    }
+    h2 {
+        font-size: 1.1em;
+    }
+    .site-wrapper .site-title{
+        padding: 0.7em;
+    }
+    p {
+        font-size: 0.9em;
+    }
+
+    h3 {
+        font-size: 1em;
+    }
+
+    /*Lists*/
+    ul {
+        font-size: 14px;
+    }
+    ul.hard-list, ul.soft-list {
+        justify-content: center;
+        margin: 0;
+    }
+    ul.hard-list li span, 
+    ul.soft-list li span {
+        font-size: 16px;
+        line-height: 1.1;
+    }
+    ul.hard-list li svg, 
+    ul.soft-list li svg {
+        width: 34px;
+    }
+  
+    ol li {
+        margin: 0 0 2em 0.5em;
+        padding-left: 1.5em;
+    }
+    ol li::before {
+        font-size: 1.1em;
+    }
+
+    .slick-prev:before, .slick-next:before {
+        font-size: 20px !important;
+    }
+    .slick-prev, .slick-next {
+        width: 20px !important;
+        height: 20px !important;
+    }
+    span.inner-link svg {
+        width: 30px;
+        height: auto;
+    }
+}

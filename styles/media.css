@@ -101,7 +101,7 @@
 @media(max-width:767px){
     /*Header*/
     header {
-        height: 40vh;
+        height: 60vh;
     }
     .site-header {
         padding: 1em;

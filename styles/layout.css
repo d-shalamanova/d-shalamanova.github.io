@@ -1,74 +1,233 @@
-.site {
-    max-width: 60em;
-    margin: 0 auto;
+/*Header*/
+header{
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-image: linear-gradient( to right, rgb(255, 251, 251,0.5), rgba(255, 204, 38, 0)), url('../images/background.jpg');
+    background-size: cover, cover;
 }
-
 .site-header{
-    padding-top: 15em;
-    padding-left: 1em;
-    height: 400px;
-    width: 60em;
-    background-position: right bottom, left top;
-    background-repeat: no-repeat, repeat;
-    background-image: linear-gradient( to right, rgb(255, 251, 251,1), rgba(255, 204, 38, 0)), url('background.jpg');
-    background-size: cover, cover;
-}
-
-.site-content{
+    max-width: 60em;
+    margin: auto;
     display: flex;
-    background-position: right bottom, left top;
-    background-image: linear-gradient( to right, rgb(255, 251, 251,1), rgba(255, 255, 255, 0.1)), url('flower.png');
-    background-repeat: no-repeat, no-repeat;
-    background-size: cover, cover;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    background: rgba(0, 0, 0, 0.2);
+    padding: 3em 2em;
+    border-radius: 10px;
 }
-
-main{
-    padding: 1em;
-    flex: 1 0 60%;
-    text-align: center;
+.site-logo{
+    padding-right: 25px;
 }
-
-.site-sidebar{
-    padding: 1em;
-    flex: 1 0 40%;
-    text-align: center;
-}
-
-.wrapper-content{
-    padding-top: 1em;
-padding-bottom: 1em;
-}
-
-main img{
-    width: 60%;
-    height: auto; 
-    border: 1px solid orange;
-    box-shadow: 0.5rem 0.5rem 0.5rem 0.1em rgba(0, 0, 0, 0.3);
-}
-
-
-.site-sidebar img{
-   width: 60%;
-   height: auto; 
-   border: 1px solid orange;
-   box-shadow: 0.5rem 0.5rem 0.5rem 0.1em rgba(0, 0, 0, 0.3);
-}
-
-.site-sidebar img:hover{
-   box-shadow: 0.5rem 0.5rem 0.5rem 0.1em rgba(255, 165, 0, 0.2);
-}
-
 .logo{
     width: 130px;
     height: auto;
     margin: auto;
 }
+
+.site-title {
+    padding-bottom: 0;
+    background: rgba(0, 0, 0, 0.7);
+    padding: 2em;
+    color: #fff;
+    border-radius: 10px;
+    text-align: center;
+}
+.site-title h1{
+    margin-bottom: 25px;
+}
+
+/*Main*/
+.site-wrapper{
+    background-position: right bottom, left top;
+    background-image: linear-gradient( to right, rgb(255, 251, 251,0.8), rgba(255, 255, 255, 0.8)), url('../images/flower.png');
+    background-repeat: no-repeat, no-repeat;
+    background-size: cover, cover;
+}
+.site-content{
+    max-width: 60em;
+    margin: auto;
+    padding: 3em 0;
+}
+
+main{
+    padding: 2.5em;
+    box-shadow: 1px 4px 14px -6px rgb(0 0 0);
+    background-color: rgba(255, 255, 255, 0.8);   
+}
+
+.wrapper-content{  
+    margin-bottom: 3em;   
+}
+.flex-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+}
+main img.old{
+    width: 40%;
+    height: auto; 
+    box-shadow: 1px 4px 14px -6px rgb(0 0 0);
+}
+.wrapper-text{
+    flex: 1 0 60%;
+    min-width: 60%;
+    padding-right: 2em;
+}
+.wrapper-media {
+    text-align: center;
+    flex: 1 0 40%;
+    min-width: 40%;
+}
+.wrapper-media-inner{
+    position: relative;
+    padding-bottom: 60%;
+    margin: 0 auto;
+}
+.wrapper-media img{
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+
+    width: auto;
+    height: 100%;
+    object-fit: contain;
+    box-shadow: 1px 4px 14px -6px rgb(255 122 47);
+}
+
+/*Projects*/
+
+.wrapper-project-title{
+    flex: 1 0 100%;
+    max-width: 100%;
+}
+.carousel{
+    padding: 0 3em;
+}
+.slick-list{
+    padding: 0.5em 0;
+}
+.slick-slide{
+    max-height: 350px;
+}
+.slick-slide img {
+    max-height: 350px;
+    width: auto;
+    margin: 0 auto;
+    box-shadow: 1px 4px 14px -6px rgba(255, 122, 47, 1);
+    transition: 0.5s;
+}
+.slick-slide img:hover{
+    transform: scale(1.1);
+    transition: 0.5s ease-in-out;
+}
+.slick-prev, .slick-next {
+    background: #ff7a2f !important;
+    border-radius: 50%;
+    width: 25px !important;
+    height: 25px !important;
+}
+.slick-prev:before, .slick-next:before {
+    font-size: 25px !important;
+}
+.slick-prev {
+    left: 20px !important; 
+}
+.slick-next { 
+    right: 20px !important; 
+}
+.project-group{
+    margin-bottom: 3em;
+}
+
+
+/*Skills*/
+ul.hard-list, 
+ul.soft-list{
+    list-style: none;
+    margin: 0 100px;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+ul.hard-list li, 
+ul.soft-list li{
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.5em;
+}
+ul.hard-list li svg, 
+ul.soft-list li svg {
+    width: 40px;
+    height: auto;
+    fill: #ff7a2f;
+    margin-right: 20px;
+}
+ul.hard-list li span,
+ul.soft-list li span {
+    color: #777;
+    font-weight: 600;
+    font-size: 24px;
+}
+
+/*Footer*/
 .site-footer{
     padding-top: 1em;
     display: flex;
     align-items: center;
     justify-content: center;
-    border-top: 1px solid orange;
+    border-top: 2px solid #ff7a2f;
+}
+.site-footer{
+    padding: 1em 0;
+}
+.site-footer p{
+   padding-bottom: 0;
+}
+.button > span{
+    background-color: gray;
+    color: #fff;
+    padding: 0.5em 1em;
+    position:relative;
+    z-index: 9;
+}
+.button {
+    text-align: center;
+}
+.button a {
+    background: rgba(0, 0, 0, 0.7);
+    color: #fff;
+    padding: 0.5em 1em;
+    border-radius: 5px;
+}
+.button a:hover{
+    color: #ff7a2f;
 }
 
+
+/*Back to top button*/
+aside#back-to-top {
+    position: fixed;
+    right: 60px;
+    z-index: 9;
+    bottom: 54px;
+    background: #ff7a2f;
+    border-radius: 5px;
+}
+aside#back-to-top svg{
+    fill: #fff;
+}
+aside#back-to-top svg:hover{
+    fill: rgba(0, 0, 0, 0.7);
+}
+span.inner-link {
+    display: flex;
+    padding: 0.2em;
+}
 

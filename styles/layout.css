@@ -64,6 +64,9 @@ main{
 .wrapper-content{  
     margin-bottom: 3em;   
 }
+.wrapper-content:last-child {
+    margin-bottom: 0;
+}
 .flex-content{
     display: flex;
     align-items: center;

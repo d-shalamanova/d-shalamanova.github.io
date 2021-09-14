@@ -1,12 +1,8 @@
-.site-nav{
+.site-nav {
     width: 100%;
-	display: flex;
-	justify-content: center;
-    border-bottom: 2px solid #ff7a2f;
-    position: absolute;
-    left:0;
-    bottom:0;
-    display: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
 }
 
 .site-nav ul{
@@ -16,51 +12,29 @@
 
 
 .site-nav ul li{
-    padding: 0.5em;
+    padding: 0.8em;
     list-style: none;
-    background-color: rgba(0, 0, 0, 0.7);
-    border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
     display: inline-block;
     text-decoration: none;
     text-transform: uppercase;
 	position: relative;
+    border-radius: 5px;
+}
+.site-nav ul li:last-child{
+    padding-right: 0;
 }
 .site-nav ul li a{
-    padding: 0 1.5em;
     margin: 0;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 1.3em;
+    font-weight: 700;
     color: #fff;
-    font-weight: 600;
-    text-shadow: 0 0 0.15em #ff7a2f;
+    text-shadow: -1px -1px 0 #bbb, 1px -1px 0 #bbb, -1px 1px 0 #333, 1px 1px 0 #333;
+
 }
-
-.site-nav li:after{
-    content: '';
-    background: rgb(255, 122, 47);
-    position: absolute;
-    bottom: 0; 
-    left: 0;
-    transition: all .4s ease;
-    transform: scaleX(0);
-    z-index: 1;
-}
-
-.site-nav li:hover:after{
-    width: 100%;
-    height: 100%;
-    background: rgb(255, 122, 47);
-    background: radial-gradient(rgba(255, 122, 47, 0.5), rgba(0, 0, 0, 0.4));
-    transform: scaleX(1);  
-    border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
-}
-
-
-.site-nav li:hover a{
-    color: #fff !important;
-    position: relative;
-    z-index: 10;
-    transition: 0.5s ease;
+.site-nav ul li.active a,
+.site-nav ul li a:hover{
+    color: #555; 
 }
 
 .site-nav-label{
@@ -92,17 +66,18 @@
 
     .site-nav-label{
         display: block;
-        background: rgb(255, 122, 47);
-        color: #FFF;
+        color: #fff;
+        text-shadow: -1px -1px 0 #555, 1px -1px 0 #555, -1px 1px 0 #555, 1px 1px 0 #555;
         border-radius: 0.3em;
         padding: 0.5em 1em;
         position: absolute;
-        top: 0;
+        top: 5em;
         left: 0;
         min-width: 100%;
         font-weight: 600;
         text-align: center;
-        border-bottom: 2px solid rgba(0, 0, 0, 0.7);
+        background: linear-gradient(rgba(247, 208, 243, 0.3), rgba(246, 247, 182, 0.3));
+        box-shadow: 0 0 1em #555;
     }
 
     .site-header{
@@ -118,9 +93,10 @@
         justify-content: center;      
         position: absolute;
         left: 0;
-        top: 42px;
+        top: 130px;
         border-bottom: 0;
-        background-color: rgba(0, 0, 0, 0.7);
+        background-color: hsl(306deg 71% 89% / 80%);
+        display: none;
     }
     .site-nav ul {
         width: 100%;
@@ -129,8 +105,7 @@
         text-align: center;
     }
     .site-nav ul li {
-        border-radius: 5px;
-        background-color: rgb(255, 122, 47);
+        background: linear-gradient(rgba(247, 208, 243, 0.3), rgba(246, 247, 182, 0.3));
         margin-bottom: 2px;
     }
 }

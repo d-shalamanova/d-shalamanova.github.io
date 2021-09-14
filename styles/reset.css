@@ -10,3 +10,13 @@ html{
 *, *:before, *:after {
     box-sizing: inherit;
 }
+
+/*Vars*/
+:root{
+    --primary-color: #B7F7CD;
+    --background-color: #505061;
+    --accent-color:  #F6F7B7;
+    --title-color:  #F7DDDC;
+    --padding-sides:  5em;
+    --padding-top-bottom:  7em;
+}

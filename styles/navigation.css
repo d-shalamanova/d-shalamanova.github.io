@@ -18,7 +18,6 @@
     text-decoration: none;
     text-transform: uppercase;
 	position: relative;
-    border-radius: 5px;
 }
 .site-nav ul li:last-child{
     padding-right: 0;
@@ -29,12 +28,10 @@
     font-size: 1.3em;
     font-weight: 700;
     color: #fff;
-    text-shadow: -1px -1px 0 #bbb, 1px -1px 0 #bbb, -1px 1px 0 #333, 1px 1px 0 #333;
-
 }
 .site-nav ul li.active a,
 .site-nav ul li a:hover{
-    color: #555; 
+    color: var(--accent-color);
 }
 
 .site-nav-label{
@@ -67,17 +64,19 @@
     .site-nav-label{
         display: block;
         color: #fff;
-        text-shadow: -1px -1px 0 #555, 1px -1px 0 #555, -1px 1px 0 #555, 1px 1px 0 #555;
-        border-radius: 0.3em;
-        padding: 0.5em 1em;
-        position: absolute;
-        top: 5em;
+        padding: 0.8em 1em;
+        position: fixed;
+        top: 70px;
         left: 0;
         min-width: 100%;
+
+        font-size: 1.3em;
         font-weight: 600;
         text-align: center;
-        background: linear-gradient(rgba(247, 208, 243, 0.3), rgba(246, 247, 182, 0.3));
-        box-shadow: 0 0 1em #555;
+
+        background: var(--background-color);
+        border-bottom: 1px solid #ccc;
+        z-index: 20;
     }
 
     .site-header{
@@ -93,9 +92,8 @@
         justify-content: center;      
         position: absolute;
         left: 0;
-        top: 130px;
+        top: 134px;
         border-bottom: 0;
-        background-color: hsl(306deg 71% 89% / 80%);
         display: none;
     }
     .site-nav ul {
@@ -103,10 +101,22 @@
         display: flex;
         flex-direction: column;      
         text-align: center;
+        background-color: var(--background-color);
+        padding: 0.5em 1.5em;
     }
     .site-nav ul li {
-        background: linear-gradient(rgba(247, 208, 243, 0.3), rgba(246, 247, 182, 0.3));
         margin-bottom: 2px;
+        border-bottom: 1px solid #ccc;
+    }
+    .site-nav ul li:last-child {
+        border-bottom: none;
+    }
+    .site-nav ul li a{
+        color: #fff;
+        text-shadow: none;
+    }
+    .site-nav ul li.active a {
+        color: hsl(306deg 71% 89% / 80%);
     }
 }
 @media (min-width: 601px){

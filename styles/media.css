@@ -192,8 +192,8 @@
     }
     /*Main*/
     main {
-        max-width: 90%;
-        padding: 2em;
+        max-width: 100%;
+        padding: 0;
     }
     .flex-content {
         flex-wrap: wrap;
@@ -217,7 +217,9 @@
             "story story story story story story"
             "only-story only-story only-story only-story only-story only-story";
     }
-
+    .wrapper-media {
+        align-self: center;
+    }
     h2 {
         font-size: 1.1em;
     }
@@ -231,7 +233,10 @@
     h3 {
         font-size: 1.1em;
     }
-
+.wrapper-media {
+    grid-area: media;
+    align-self: center;
+}
     /*Lists*/
     ul {
         font-size: 14px;
@@ -269,16 +274,6 @@
         width: 30px;
         height: auto;
     }
-
-    /*Projects*/
-    .wrapper-project .project-text,
-    .wrapper-project .project-media{
-        flex: 1 0 100%;
-        max-width: 100%;
-    }
-    .wrapper-project .project-text {
-        margin-top: 2em;
-    }
     /*Skills*/
     .wrapper-skills{
         grid-template-columns: repeat(4, 1fr);
@@ -293,6 +288,20 @@
                                 "service2 service2 service2 service2 service2 service2"
                                 "service3 service3 service3 service3 service3 service3"; 
     }
+
+    /*Projects*/
+    .wrapper-project .project-text,
+    .wrapper-project .project-media{
+        flex: 1 0 100%;
+        max-width: 100%;
+    }
+    .wrapper-project .project-text {
+        margin-top: 2em;
+    }
+    .wrapper-project-process svg {
+        display: none;
+    }
+    
     /*JS projects*/
     article {
         width: 80% !important;

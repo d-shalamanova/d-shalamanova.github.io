@@ -158,7 +158,7 @@
 @media(max-width:767px){
     /*Header*/
     header {
-        padding-top: 35vh;
+        padding-top: 45vh;
     }
     .site-header {
 		min-width: 100%;
@@ -190,10 +190,13 @@
         font-size: 1.7em;
         line-height: 1;
     }
+    .presentation {
+        min-width: 95%;
+    }
     /*Main*/
     main {
         max-width: 100%;
-        padding: 0;
+        padding: 1em;
     }
     .flex-content {
         flex-wrap: wrap;
@@ -276,10 +279,14 @@
     }
     /*Skills*/
     .wrapper-skills{
+        grid-template-rows: repeat(6, 1fr);
         grid-template-columns: repeat(4, 1fr);
-        grid-template-areas:    "skill1 skill1 skill2 skill2"
-                                "skill3 skill3 skill4 skill4"
-                                "skill5 skill5 skill6 skill6";                           
+        grid-template-areas:    "skill1 skill1 skill1 skill1"
+                                "skill2 skill2 skill2 skill2"
+                                "skill3 skill3 skill3 skill3"
+                                "skill4 skill4 skill4 skill4"
+                                "skill5 skill5 skill5 skill5"
+                                "skill6 skill6 skill6 skill6";                           
     }
     /*Services*/
     .wrapper-services{
@@ -301,9 +308,25 @@
     .wrapper-project-process svg {
         display: none;
     }
-    
+    .carousel {
+        padding: 0;
+    }
+    .slick-slide img{
+        transform: none;
+        width: 100%;
+    }
+    .slick-slide img:hover {
+        transform: none;
+        transition: none;
+    }
+    .button a {
+        margin: 2em 0;
+    }
     /*JS projects*/
     article {
         width: 80% !important;
+    }
+    .wrapper-js-links {
+        flex-direction: column;
     }
 }

@@ -329,4 +329,8 @@
     .wrapper-js-links {
         flex-direction: column;
     }
+    /*Gallery*/
+    .gallery-items img {
+        width: 100%;
+    }
 }

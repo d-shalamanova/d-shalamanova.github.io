@@ -1,7 +1,6 @@
 /*Main*/
 .site {
   background: linear-gradient(30deg, rgba(53, 13, 130, 0.6) 30%, rgba(128, 33, 181, 0.2) 70%);
-}
 
   main {
     max-width: 95%;
@@ -30,9 +29,8 @@
   grid-template-columns: repeat(6, 1fr);
   grid-template-rows: 1.5fr 1fr;
   justify-items: center;
-  grid-template-areas:
-    "story story story story media media"
-    "only-story only-story only-story only-story only-story only-story";
+  grid-template-areas: "story story story media media media"
+  "only-story only-story only-story only-story only-story only-story";
   grid-gap: 0 0;
 }
 
@@ -71,7 +69,7 @@
 
 .wrapper-media-inner {
   position: relative;
-  padding-bottom: 13em;
+  padding-bottom: 18em;
   margin: 0 auto;
 }
 
@@ -89,40 +87,9 @@
 }
 
 /*Skills*/
-.wrapper-skills {
-  display: grid;
-  grid-auto-columns: 1fr;
-  grid-auto-rows: 1fr;
-  grid-template-columns: repeat(12, 1fr);
-  grid-template-rows: repeat(3, 1fr);
-  align-items: center;
-  justify-items: center;
-  grid-template-areas:
-    "skill1 skill1 skill1 skill1 . . . . skill2 skill2 skill2 skill2"
-    ". skill3 skill3 skill3 skill3  . .  skill4 skill4 skill4 skill4 ."
-    ". . skill5 skill5 skill5 skill5  skill6 skill6 skill6 skill6 . .";
+.hard-list .carousel {
+  display: flex;
   grid-gap: 1em 0;
-
-  .wrapper-skills li {
-    &::nth-child(1) {
-      grid-area: skill1;
-    }
-    &::nth-child(2) {
-      grid-area: skill2;
-    }
-    &::nth-child(3) {
-      grid-area: skill3;
-    }
-    &::nth-child(4) {
-      grid-area: skill4;
-    }
-    &::nth-child(5) {
-      grid-area: skill5;
-    }
-    &::nth-child(6) {
-      grid-area: skill6;
-    }
-  }
 }
 
 ul.hard-list,
@@ -159,55 +126,25 @@ ul.services-list li {
   }
 }
 
-ul.hard-list li {
-  svg {
-    width: 40px;
-    height: auto;
-    fill: #333;
-    margin-right: 12px;
-  }
+ul.hard-list {
+  background-color: #bbb;
+  padding-block: 1em;
 
-  span {
-    color: #333;
-    font-weight: 600;
-    font-size: 20px;
-    display: block;
-    line-height: 1.1;
-  }
-}
-
-.progress {
-  width: 100%;
-  height: 3px;
-  background: #e1e4e8;
-  border-radius: 3px;
-  overflow: hidden;
-  margin-top: 0.5em;
-
-  .progress-bar {
-    display: block;
-    height: 100%;
-    background: linear-gradient(
-      90deg,
-      #fdefbf,
-      #efa8d2 17%,
-      #d9b0f7 34%,
-      #c0f9f9 51%,
-      #f5e2a3 68%,
-      #e69ec9 85%,
-      #d09cf7
-    );
-    background-size: 300% 100%;
-    animation: progress-animation 3s linear infinite;
-  }
-}
-
-@keyframes progress-animation {
-  0% {
-    background-position: 100%;
-  }
-  100% {
-    background-position: 0;
+  li {
+    svg {
+      width: 40px;
+      height: auto;
+      fill: #333;
+      margin-right: 12px;
+    }
+  
+    span {
+      color: #333;
+      font-weight: 600;
+      font-size: 20px;
+      display: block;
+      line-height: 1.1;
+    }
   }
 }
 

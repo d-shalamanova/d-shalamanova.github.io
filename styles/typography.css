@@ -1,14 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Prosto+One&family=Roboto:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,400;1,700&family=Titillium+Web:ital,wght@0,400;0,600;1,400;1,600&display=swap");
+
 html {
   font: 16px/1.5 "Roboto", sans-serif;
 }
 
-body,
-bottom,
-input,
-select,
-option {
+body, bottom, input, select, option {
   font: inherit;
 }
 
@@ -17,12 +14,7 @@ a {
   color: #555;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+h1, h2, h3, h4, h5, h6 {
   /*font-family: 'Prosto One', cursive;*/
 
   line-height: 1.2;
@@ -39,21 +31,26 @@ h1 {
   font-family: "Merriweather", serif;
   letter-spacing: 3px;
 }
+
 h2 {
   color: #777;
   padding-top: 0.5em;
   margin-bottom: 2em;
 }
+
 .grid-my-story h2 {
   text-align: left !important;
   margin-bottom: 1.5em;
+
+  &::after {
+    margin-left: 0 !important;
+  }
 }
-.grid-my-story h2::after {
-  margin-left: 0 !important;
-}
+
 .accent {
   color: #777;
 }
+
 h2::after,
 h3::after {
   content: "";
@@ -65,13 +62,16 @@ h3::after {
   display: block;
   margin: auto;
 }
+
 h3::after {
   margin-top: 0.5em;
   padding-top: 0.2em;
 }
+
 .trade-mark:after {
   display: none;
 }
+
 h3 {
   padding-bottom: 1em;
 }
@@ -91,9 +91,8 @@ h4 {
 h5 {
   padding: 1em;
 }
-p,
-ul,
-ol {
+
+p, ul, ol {
   padding-bottom: 1.3em;
   line-height: 1.5;
   font-size: 1.3em;
@@ -106,21 +105,21 @@ ol {
   left: 50%;
   transform: translateX(-50%);
 }
+
 .headerParagraph {
   box-shadow: 1px 4px 14px -6px #000;
-}
-.headerParagraph {
-  background: #c0c0c6;
+  background: #ffff0021;
   padding: 0 0.5em;
   font-family: "Titillium Web", sans-serif;
   font-weight: 600;
   color: #555;
   border-radius: 5px;
   text-align: center;
-}
-.headerParagraph span {
-  padding-bottom: 0;
-  font-size: 2.2em;
+
+  span {
+    padding-bottom: 0;
+    font-size: 2.2em;
+  }
 }
 
 ol {
@@ -128,34 +127,31 @@ ol {
   clear: both;
   list-style: none;
   padding-left: 2%;
-}
-ol li {
-  margin: 0 0 2em 2em;
-  display: block;
-  position: relative;
-  counter-increment: inst;
-  padding-left: 1em;
-}
-ol li::before {
-  content: counter(inst);
-  background: var(--background-color);
-  color: #fff;
 
-  font-size: 1.5em;
-  font-weight: 700;
-  font-style: italic;
-  text-shadow: 1px 1px var(--primary-color);
-  border-radius: 5px;
+  li {
+    margin: 0 0 2em 2em;
+    display: block;
+    position: relative;
+    counter-increment: inst;
+    padding-left: 1em;
 
-  text-align: center;
-
-  left: -5%;
-  top: 12%;
-  width: 1.35em;
-
-  position: absolute;
-
-  transition: all 0.2s ease-in-out;
+    &::before {
+      position: absolute;
+      left: -5%;
+      top: 12%;
+      width: 1.35em;
+      content: counter(inst);
+      background: var(--background-color);
+      color: #fff;
+      font-size: 1.5em;
+      font-weight: 700;
+      font-style: italic;
+      text-shadow: 1px 1px var(--primary-color);
+      border-radius: 5px;
+      text-align: center;
+      transition: all 0.2s ease-in-out;
+    }
+  }
 }
 
 .wrapper-projects h3 {
@@ -175,6 +171,7 @@ ol li::before {
   margin-top: 1em;
   margin-bottom: 1.3em;
 }
+
 .contribution {
   font-size: 0.6em;
 }

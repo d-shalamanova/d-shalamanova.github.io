@@ -1,0 +1,46 @@
+.carousel {
+  padding: 0 3em;
+
+  .slick-list {
+    padding: 0.5em 0;
+
+    .slick-slide {
+      max-height: 350px;
+
+      img {
+        max-height: 350px;
+        width: auto;
+        margin: 0 auto;
+        box-shadow: 1px 4px 14px -6px var(--backgoround-color);
+        transform: scale(0.9);
+        transition: 0.5s;
+
+        &:hover {
+          transform: scale(1);
+          transition: 0.5s ease-in-out;
+        }
+      }
+    }
+  }
+
+  .slick-prev,
+  .slick-next {
+    background: var(--backgoround-color) !important;
+    border-radius: 50%;
+    width: 25px !important;
+    height: 25px !important;
+
+    &::before,
+    &::before {
+      font-size: 25px !important;
+    }
+  }
+
+  .slick-prev {
+    left: 20px !important;
+  }
+  
+  .slick-next {
+    right: 20px !important;
+  }
+}

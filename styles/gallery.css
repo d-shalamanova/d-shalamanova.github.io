@@ -19,14 +19,14 @@
   height: 100%;
   width: 100%;
   overflow: hidden;
-}
 
-.gallery-items img {
-  height: 100%;
-  object-fit: cover;
-  transition: 0.3s ease-in-out;
-}
+  img {
+    height: 100%;
+    object-fit: cover;
+    transition: 0.3s ease-in-out;
 
-.gallery-items img:hover {
-  transform: scale(1.1);
+    &:hover {
+      transform: scale(1.1);
+    }
+  }
 }

@@ -1,114 +1,129 @@
-@import url('https://fonts.googleapis.com/css2?family=Prosto+One&family=Roboto:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,400;1,700&family=Titillium+Web:ital,wght@0,400;0,600;1,400;1,600&display=swap');
-html{
-    font: 16px/1.5 'Roboto', sans-serif;
+@import url("https://fonts.googleapis.com/css2?family=Prosto+One&family=Roboto:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,400;1,700&family=Titillium+Web:ital,wght@0,400;0,600;1,400;1,600&display=swap");
+html {
+  font: 16px/1.5 "Roboto", sans-serif;
 }
 
-body, bottom, input, select, option{
-    font: inherit;
+body,
+bottom,
+input,
+select,
+option {
+  font: inherit;
 }
 
-a{
-    text-decoration: none;
-    color: #555;
+a {
+  text-decoration: none;
+  color: #555;
 }
 
-h1, h2, h3, h4, h5, h6{
-    /*font-family: 'Prosto One', cursive;*/
-    
-    line-height: 1.2;
-    text-align: center;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  /*font-family: 'Prosto One', cursive;*/
+
+  line-height: 1.2;
+  text-align: center;
 }
 
-h1{
-    display: table;
-    margin: auto;
-    padding: 0.8em 0.5em;
-    color: #999;
-    text-shadow:
-        -1px -1px 0 #000,  
-        1px -1px 0 #000,
-        -1px 1px 0 #000,
-        1px 1px 0 #000;
-    font-family: 'Merriweather', serif;
-    letter-spacing: 3px;
+h1 {
+  display: table;
+  margin: auto;
+  padding: 0.8em 0.5em;
+  color: #999;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
+    1px 1px 0 #000;
+  font-family: "Merriweather", serif;
+  letter-spacing: 3px;
 }
 h2 {
-    color: #777;
-    padding-top: 0.5em;
-    margin-bottom: 2em;
+  color: #777;
+  padding-top: 0.5em;
+  margin-bottom: 2em;
 }
-.grid-my-story h2{
-    text-align: left !important; 
-    margin-bottom: 1.5em;
+.grid-my-story h2 {
+  text-align: left !important;
+  margin-bottom: 1.5em;
 }
-.grid-my-story h2::after{
-    margin-left:  0 !important;
+.grid-my-story h2::after {
+  margin-left: 0 !important;
 }
-.accent{
-    color: #777;
+.accent {
+  color: #777;
 }
-h2::after, 
+h2::after,
 h3::after {
-    content: '';
-    width: 25vw;
-    background: var(--title-color);
-    height: 1px;
-    padding-top: 0.4em;
-    opacity: 0.3;
-    display: block;
-    margin: auto;
+  content: "";
+  width: 25vw;
+  background: var(--title-color);
+  height: 1px;
+  padding-top: 0.4em;
+  opacity: 0.3;
+  display: block;
+  margin: auto;
 }
 h3::after {
-    margin-top: 0.5em;
-    padding-top: 0.2em;
+  margin-top: 0.5em;
+  padding-top: 0.2em;
 }
-.trade-mark:after{
-    display: none;
+.trade-mark:after {
+  display: none;
 }
-h3{
-    padding-bottom: 1em;  
+h3 {
+  padding-bottom: 1em;
 }
 
-
-h1{ font-size: 4em}
-h2{ font-size: 2.2em}
-h3{ font-size: 1.3em}
-h4{ font-size: 1.1em}
+h1 {
+  font-size: 4em;
+}
+h2 {
+  font-size: 2.2em;
+}
+h3 {
+  font-size: 1.3em;
+}
+h4 {
+  font-size: 1.1em;
+}
 h5 {
-    padding: 1em;
+  padding: 1em;
 }
-p, ul, ol {
-    padding-bottom: 1.3em;
-    line-height: 1.5;
-    font-size: 1.3em;
+p,
+ul,
+ol {
+  padding-bottom: 1.3em;
+  line-height: 1.5;
+  font-size: 1.3em;
 }
 
-.presentation{
-    min-width: 85%;
-    position: absolute;
-    top: -4em;
-    left: 50%;
-    transform: translateX(-50%);
+.presentation {
+  min-width: 85%;
+  position: absolute;
+  top: -4em;
+  left: 50%;
+  transform: translateX(-50%);
 }
 .headerParagraph {
-    box-shadow: 1px 4px 14px -6px #000;
+  box-shadow: 1px 4px 14px -6px #000;
 }
-.headerParagraph{
-    background: #c0c0c6;
-    padding: 0 0.5em;
-    font-family: 'Titillium Web', sans-serif;
-    font-weight: 600;
-    color: #555;
-    border-radius: 5px;
-    text-align: center;
+.headerParagraph {
+  background: #c0c0c6;
+  padding: 0 0.5em;
+  font-family: "Titillium Web", sans-serif;
+  font-weight: 600;
+  color: #555;
+  border-radius: 5px;
+  text-align: center;
 }
-.headerParagraph span{
-    padding-bottom: 0; 
-    font-size: 2.2em;
+.headerParagraph span {
+  padding-bottom: 0;
+  font-size: 2.2em;
 }
 
-ol{
+ol {
   padding: 0 2em 1em 2em;
   clear: both;
   list-style: none;
@@ -122,44 +137,44 @@ ol li {
   padding-left: 1em;
 }
 ol li::before {
-    content: counter(inst);
-    background: var(--background-color);
-    color: #fff;
+  content: counter(inst);
+  background: var(--background-color);
+  color: #fff;
 
-    font-size: 1.5em;
-    font-weight: 700;
-    font-style: italic;
-    text-shadow: 1px 1px var(--primary-color);
-    border-radius: 5px;
+  font-size: 1.5em;
+  font-weight: 700;
+  font-style: italic;
+  text-shadow: 1px 1px var(--primary-color);
+  border-radius: 5px;
 
-    text-align: center;
+  text-align: center;
 
-    left: -5%;
-    top: 12%;
-    width: 1.35em;
+  left: -5%;
+  top: 12%;
+  width: 1.35em;
 
-    position: absolute;
+  position: absolute;
 
-    transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
 }
 
-.wrapper-projects h3{
+.wrapper-projects h3 {
   margin-bottom: 0.5em;
 }
 
-.trade-mark{
-    color: #333;
-    font-family: 'Merriweather', serif;
-    font-weight: 500;
+.trade-mark {
+  color: #333;
+  font-family: "Merriweather", serif;
+  font-weight: 500;
 }
 
-.accent{
-    font-weight: 500;
-    font-size: 1.3em;
-    padding: 0;
-    margin-top: 1em;
-    margin-bottom: 1.3em;
+.accent {
+  font-weight: 500;
+  font-size: 1.3em;
+  padding: 0;
+  margin-top: 1em;
+  margin-bottom: 1.3em;
 }
-.contribution{
-    font-size: 0.6em;
+.contribution {
+  font-size: 0.6em;
 }

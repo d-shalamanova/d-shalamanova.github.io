@@ -1,22 +1,24 @@
-*{
-    padding: 0;
-    margin: 0;
+* {
+  padding: 0;
+  margin: 0;
 }
 
-html{
-    box-sizing: border-box;
+html {
+  box-sizing: border-box;
 }
 
-*, *:before, *:after {
-    box-sizing: inherit;
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
 }
 
 /*Vars*/
-:root{
-    --primary-color: #B7F7CD;
-    --background-color: #505061;
-    --accent-color:  #F6F7B7;
-    --title-color:  #F7DDDC;
-    --padding-sides:  5em;
-    --padding-top-bottom:  7em;
+:root {
+  --primary-color: #b7f7cd;
+  --background-color: #505061;
+  --accent-color: #f6f7b7;
+  --title-color: #f7dddc;
+  --padding-sides: 5em;
+  --padding-top-bottom: 7em;
 }

@@ -1,210 +1,342 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests"> <!-- For slick - GitHub -->
-    <link rel="shortcut icon" href="images/favicon-32x32.png" type="image/x-icon">  
-    <link rel="stylesheet" type="text/css" href="styles/site.css"/>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"  />
-    
-    <link rel="stylesheet" type="text/css" href="css/styles.css"/>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="upgrade-insecure-requests"
+    />
+    <!-- For slick - GitHub -->
+    <link
+      rel="shortcut icon"
+      href="images/favicon-32x32.png"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" type="text/css" href="styles/site.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+
     <title>D-NewMe Portfolio</title>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="js/solution.js"></script>
-</head>
+  </head>
 
-<body>
+  <body>
     <div class="site">
+      <input type="checkbox" id="site-nav-toggle" class="site-nav-toggle" />
 
-        <input type="checkbox" id="site-nav-toggle" class="site-nav-toggle">
+      <header>
+        <div class="site-header">
+          <div class="inner-header">
+            <div class="wrapper-logo">
+              <img src="images/logo.png" alt="D-NewMe logo" />
+            </div>
+            <nav class="site-nav">
+              <ul>
+                <li class="active"><a href="index.html">Home</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+        <label for="site-nav-toggle" class="site-nav-label">
+          <span class="close">Close</span>
+          <span class="open">Menu</span>
+        </label>
+      </header>
 
-        <header>
-            <div class="site-header">
-                <div class="inner-header">
-                    <div class="wrapper-logo">
-                        <img src="images/logo.png" alt="D-NewMe logo">
-                    </div>
-                    <nav class="site-nav">
-                        <ul>
-                            <li class="active"><a href="index.html">Home</a></li>                 
-                            <li><a href="projects.html">Projects</a></li>
-                            <li><a href="gallery.html">Gallery</a></li>
-                        </ul>          
-                    </nav>  
-                </div>                  
-            </div>                    
-            <label for="site-nav-toggle" class="site-nav-label">
-                <span class="close">Close</span>
-                <span class="open">Menu</span>
-            </label>          
-        </header>
+      <main>
+        <div
+          class="presentation animate__animated animate__fadeIn animate__delay-1s"
+        >
+          <div class="headerParagraph">
+            <span> Hello, I am Dessie - handcrafter & web developer</span>
+          </div>
+        </div>
 
-        <main>    
-            <div class="presentation animate__animated animate__fadeIn animate__delay-1s">
-                <div class="headerParagraph">
-                    <span> Hello, I am Dessie - handcrafter & web developer</span>
-                </div>                 
-            </div>  
+        <div class="wrapper-content">
+          <div class="grid-my-story">
+            <div
+              class="wrapper-text animate__animated animate__fadeInLeft animate__delay-0.5s animate__slow"
+            >
+              <h2>My story</h2>
+              <p>
+                I want to share some thoughts with you about the idea for
+                <span class="trade-mark">D-NewMe</span>.
+              </p>
+              <p>
+                I firmly believe that when the person is ready, good changes can
+                happen in his life...If you were having a dream at some point in
+                your life, be sure that the process is started. My love for web
+                design starts back at 2010 when the standarts were not existing
+                and everybody was making websites how he can, so XHTML 1.0 was
+                something really needed.
+              </p>
+            </div>
+            <div
+              class="wrapper-media animate__animated animate__fadeInUp animate__delay-1s animate__slow"
+            >
+              <div class="wrapper-media-inner">
+                <img src="images/d-shalamanova.jpg" alt="d-shalamanova" />
+              </div>
+            </div>
+            <div
+              class="only-story animate__animated animate__fadeInLeft animate__slow"
+            >
+              <p class="accent">What you will find here?</p>
+              <p>
+                Some of my first designs of course and my story. Graduated as
+                computer engineer and after 5 years in the dynamic atmosphere of
+                various industries in my area, I decided to return to my first
+                passion - web design, content writing, and handicrafts. You can
+                check about the soft skills I gained there.
+              </p>
+            </div>
+            <div class="background-layer"></div>
+          </div>
+        </div>
 
-            <div class="wrapper-content">                   
-                <div class="grid-my-story">    
-                    <div class="wrapper-text animate__animated animate__fadeInLeft animate__delay-0.5s animate__slow"> 
-                        <h2>My story</h2>                          
-                        <p>
-                            I want to share some thoughts with you about the idea for <span class="trade-mark">D-NewMe</span>.
-                        </p> 
-                        <p>
-                            I firmly believe that when the person is ready, good changes can happen in his life...If you were having a dream at some point in your life, be sure that the process is started. My love for web design starts back at 2010 when the standarts were not existing and everybody was making websites how he can, so XHTML 1.0 was something really needed.
-                        </p>
-                        
-                    </div>                                
-                    <div class="wrapper-media animate__animated animate__fadeInUp animate__delay-1s animate__slow">
-                        <div class="wrapper-media-inner">
-                            <img src="images/d-shalamanova.jpg" alt="d-shalamanova">
-                        </div>
-                    </div>                    
-                    <div class="only-story animate__animated animate__fadeInLeft animate__slow">
-                        <p class="accent">What you will find here?</p>
-                        <p>Some of my first designs of course and my story. Graduated as computer engineer and after 5 years in the dynamic atmosphere of various industries in my area, I decided to return to my first passion - web design, content writing, and handicrafts. You can check about the soft skills I gained there.</p>
-                    </div>
-                    <div class="background-layer">
-                    </div>  
-                </div>               
-            </div>  
-            
-           
+        <div class="wrapper-content">
+          <h2>Services</h2>
+          <ul class="services-list wrapper-services">
+            <li class="animate__animated animate__slow">
+              <div class="icon-text">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="512"
+                  height="512"
+                  viewBox="0 0 512 512"
+                >
+                  <g>
+                    <path
+                      d="M476,32H36A28.031,28.031,0,0,0,8,60V452a28.031,28.031,0,0,0,28,28H476a28.031,28.031,0,0,0,28-28V60A28.031,28.031,0,0,0,476,32Zm12,420a12.01,12.01,0,0,1-12,12H36a12.01,12.01,0,0,1-12-12V96H488Zm0-372H24V60A12.01,12.01,0,0,1,36,48H476a12.01,12.01,0,0,1,12,12Z"
+                    />
+                    <path d="M48,72h8a8,8,0,0,0,0-16H48a8,8,0,0,0,0,16Z" />
+                    <path d="M80,72h8a8,8,0,0,0,0-16H80a8,8,0,0,0,0,16Z" />
+                    <path d="M112,72h8a8,8,0,0,0,0-16h-8a8,8,0,0,0,0,16Z" />
+                    <path
+                      d="M432,244V200a7.9,7.9,0,0,0-.85-3.57l.01-.01-32-64A8.011,8.011,0,0,0,392,128H120a8.011,8.011,0,0,0-7.16,4.42l-32,64,.01.01A7.9,7.9,0,0,0,80,200v44a28.043,28.043,0,0,0,24,27.71V416H56a8,8,0,0,0,0,16H424a8,8,0,0,0,0-16H408V271.71A28.043,28.043,0,0,0,432,244ZM124.94,144H387.06l24,48H100.94ZM368,208v36a12.01,12.01,0,0,1-12,12h-8a12.01,12.01,0,0,1-12-12V208Zm-48,0v36a12.01,12.01,0,0,1-12,12h-8a12.01,12.01,0,0,1-12-12V208Zm-48,0v36a12.01,12.01,0,0,1-12,12h-8a12.01,12.01,0,0,1-12-12V208Zm-48,0v36a12.01,12.01,0,0,1-12,12h-8a12.01,12.01,0,0,1-12-12V208Zm-48,0v36a12.01,12.01,0,0,1-12,12h-8a12.01,12.01,0,0,1-12-12V208Zm-68,48a12.01,12.01,0,0,1-12-12V208h32v36a12.01,12.01,0,0,1-12,12ZM216,416H152V312h64Zm176,0H232V304a8,8,0,0,0-8-8H144a8,8,0,0,0-8,8V416H120V271.71a27.986,27.986,0,0,0,16-8.14A27.9,27.9,0,0,0,156,272h8a27.9,27.9,0,0,0,20-8.43A27.9,27.9,0,0,0,204,272h8a27.9,27.9,0,0,0,20-8.43A27.9,27.9,0,0,0,252,272h8a27.9,27.9,0,0,0,20-8.43A27.9,27.9,0,0,0,300,272h8a27.9,27.9,0,0,0,20-8.43A27.9,27.9,0,0,0,348,272h8a27.9,27.9,0,0,0,20-8.43,27.986,27.986,0,0,0,16,8.14Zm12-160h-8a12.01,12.01,0,0,1-12-12V208h32v36A12.01,12.01,0,0,1,404,256Z"
+                    />
+                    <path
+                      d="M368,296H256a8,8,0,0,0-8,8v88a8,8,0,0,0,8,8H368a8,8,0,0,0,8-8V304A8,8,0,0,0,368,296Zm-8,88H264V312h96Z"
+                    />
+                    <path
+                      d="M200,352a8,8,0,0,0-8,8v16a8,8,0,0,0,16,0V360A8,8,0,0,0,200,352Z"
+                    />
+                    <path d="M456,416h-8a8,8,0,0,0,0,16h8a8,8,0,0,0,0-16Z" />
+                  </g>
+                </svg>
 
-            <div class="wrapper-content">
-                <h2>Services</h2>
-                <ul class="services-list wrapper-services">                        
-                    <li class="animate__animated animate__slow">
-                        <div class="icon-text">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
-                                <g>
-                                    <path d="M476,32H36A28.031,28.031,0,0,0,8,60V452a28.031,28.031,0,0,0,28,28H476a28.031,28.031,0,0,0,28-28V60A28.031,28.031,0,0,0,476,32Zm12,420a12.01,12.01,0,0,1-12,12H36a12.01,12.01,0,0,1-12-12V96H488Zm0-372H24V60A12.01,12.01,0,0,1,36,48H476a12.01,12.01,0,0,1,12,12Z"/><path d="M48,72h8a8,8,0,0,0,0-16H48a8,8,0,0,0,0,16Z"/><path d="M80,72h8a8,8,0,0,0,0-16H80a8,8,0,0,0,0,16Z"/><path d="M112,72h8a8,8,0,0,0,0-16h-8a8,8,0,0,0,0,16Z"/><path d="M432,244V200a7.9,7.9,0,0,0-.85-3.57l.01-.01-32-64A8.011,8.011,0,0,0,392,128H120a8.011,8.011,0,0,0-7.16,4.42l-32,64,.01.01A7.9,7.9,0,0,0,80,200v44a28.043,28.043,0,0,0,24,27.71V416H56a8,8,0,0,0,0,16H424a8,8,0,0,0,0-16H408V271.71A28.043,28.043,0,0,0,432,244ZM124.94,144H387.06l24,48H100.94ZM368,208v36a12.01,12.01,0,0,1-12,12h-8a12.01,12.01,0,0,1-12-12V208Zm-48,0v36a12.01,12.01,0,0,1-12,12h-8a12.01,12.01,0,0,1-12-12V208Zm-48,0v36a12.01,12.01,0,0,1-12,12h-8a12.01,12.01,0,0,1-12-12V208Zm-48,0v36a12.01,12.01,0,0,1-12,12h-8a12.01,12.01,0,0,1-12-12V208Zm-48,0v36a12.01,12.01,0,0,1-12,12h-8a12.01,12.01,0,0,1-12-12V208Zm-68,48a12.01,12.01,0,0,1-12-12V208h32v36a12.01,12.01,0,0,1-12,12ZM216,416H152V312h64Zm176,0H232V304a8,8,0,0,0-8-8H144a8,8,0,0,0-8,8V416H120V271.71a27.986,27.986,0,0,0,16-8.14A27.9,27.9,0,0,0,156,272h8a27.9,27.9,0,0,0,20-8.43A27.9,27.9,0,0,0,204,272h8a27.9,27.9,0,0,0,20-8.43A27.9,27.9,0,0,0,252,272h8a27.9,27.9,0,0,0,20-8.43A27.9,27.9,0,0,0,300,272h8a27.9,27.9,0,0,0,20-8.43A27.9,27.9,0,0,0,348,272h8a27.9,27.9,0,0,0,20-8.43,27.986,27.986,0,0,0,16,8.14Zm12-160h-8a12.01,12.01,0,0,1-12-12V208h32v36A12.01,12.01,0,0,1,404,256Z"/>
-                                    <path d="M368,296H256a8,8,0,0,0-8,8v88a8,8,0,0,0,8,8H368a8,8,0,0,0,8-8V304A8,8,0,0,0,368,296Zm-8,88H264V312h96Z"/>
-                                    <path d="M200,352a8,8,0,0,0-8,8v16a8,8,0,0,0,16,0V360A8,8,0,0,0,200,352Z"/>
-                                    <path d="M456,416h-8a8,8,0,0,0,0,16h8a8,8,0,0,0,0-16Z"/>
-                                </g>
-                            </svg>
+                <h3>Your online place</h3>
+              </div>
+              <div class="service-desc">
+                <span
+                  >Nowadays to have your online presence is an absolute must
+                  even if you are not selling online. Present your goods and
+                  services to the world.</span
+                >
+              </div>
+            </li>
+            <li class="animate__animated animate__slow">
+              <div class="icon-text">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="512"
+                  height="512"
+                  viewBox="0 0 512 512"
+                >
+                  <g>
+                    <path
+                      d="M256,64c-83.81,0-152,68.19-152,152a150.6,150.6,0,0,0,31.12,92.16A153.187,153.187,0,0,0,208,360.26V384H192a8,8,0,0,0-8,8v24a8,8,0,0,0,8,8v28a28.031,28.031,0,0,0,28,28h4v16a8,8,0,0,0,8,8h48a8,8,0,0,0,8-8V480h4a28.031,28.031,0,0,0,28-28V424a8,8,0,0,0,8-8V392a8,8,0,0,0-8-8H304V360.26a153.187,153.187,0,0,0,72.88-52.1A150.6,150.6,0,0,0,408,216C408,132.19,339.81,64,256,64Zm16,424H240v-8h32Zm32-36a12.01,12.01,0,0,1-12,12H220a12.01,12.01,0,0,1-12-12V424h96Zm8-52v8H200v-8ZM232,232H220a12,12,0,1,1,12-12Zm16,152V248h16V384Zm116.17-85.55a136.929,136.929,0,0,1-70.39,48.23,8.013,8.013,0,0,0-5.78,7.69V384h-8V248h12a28,28,0,1,0-28-28v12H248V220a28,28,0,1,0-28,28h12V384h-8V354.37a8.013,8.013,0,0,0-5.78-7.69,136.929,136.929,0,0,1-70.39-48.23A134.74,134.74,0,0,1,120,216c0-74.99,61.01-136,136-136s136,61.01,136,136A134.74,134.74,0,0,1,364.17,298.45ZM280,232V220a12,12,0,1,1,12,12Z"
+                    />
+                    <path
+                      d="M357.606,193.706A104.645,104.645,0,0,1,360,216a8,8,0,0,0,16,0,120.7,120.7,0,0,0-2.762-25.706,8,8,0,0,0-15.632,3.412Z"
+                    />
+                    <path
+                      d="M320.96,115.088A119.58,119.58,0,0,0,256,96a8,8,0,0,0,0,16,104.553,104.553,0,0,1,94,59.433,8,8,0,1,0,14.452-6.866A120.246,120.246,0,0,0,320.96,115.088Z"
+                    />
+                    <path
+                      d="M256,48a8,8,0,0,0,8-8V16a8,8,0,0,0-16,0V40A8,8,0,0,0,256,48Z"
+                    />
+                    <path d="M80,208H56a8,8,0,0,0,0,16H80a8,8,0,0,0,0-16Z" />
+                    <path
+                      d="M464,216a8,8,0,0,1-8,8H432a8,8,0,0,1,0-16h24A8,8,0,0,1,464,216Z"
+                    />
+                    <path
+                      d="M125.893,334.794l-16.971,16.97a8,8,0,1,0,11.313,11.314l16.971-16.97a8,8,0,1,0-11.313-11.314Z"
+                    />
+                    <path
+                      d="M380.451,99.549a7.974,7.974,0,0,0,5.656-2.343l16.971-16.97a8,8,0,1,0-11.313-11.314l-16.971,16.97a8,8,0,0,0,5.657,13.657Z"
+                    />
+                    <path
+                      d="M125.893,97.206a8,8,0,1,0,11.313-11.314l-16.971-16.97a8,8,0,1,0-11.313,11.314Z"
+                    />
+                    <path
+                      d="M386.107,334.794a8,8,0,1,0-11.313,11.314l16.971,16.97a8,8,0,1,0,11.313-11.314Z"
+                    />
+                  </g>
+                </svg>
 
-                            <h3>Your online place</h3>
-                           
-                        </div>
-                        <div class="service-desc">
-                            <span>Nowadays to have your online presence is an absolute must even if you are not selling online. Present your goods and services to the world.</span>
-                        </div>
-                    </li>
-                    <li class="animate__animated animate__slow">
-                        <div class="icon-text">
-                            
-                            <svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
-                                <g>
-                                    <path d="M256,64c-83.81,0-152,68.19-152,152a150.6,150.6,0,0,0,31.12,92.16A153.187,153.187,0,0,0,208,360.26V384H192a8,8,0,0,0-8,8v24a8,8,0,0,0,8,8v28a28.031,28.031,0,0,0,28,28h4v16a8,8,0,0,0,8,8h48a8,8,0,0,0,8-8V480h4a28.031,28.031,0,0,0,28-28V424a8,8,0,0,0,8-8V392a8,8,0,0,0-8-8H304V360.26a153.187,153.187,0,0,0,72.88-52.1A150.6,150.6,0,0,0,408,216C408,132.19,339.81,64,256,64Zm16,424H240v-8h32Zm32-36a12.01,12.01,0,0,1-12,12H220a12.01,12.01,0,0,1-12-12V424h96Zm8-52v8H200v-8ZM232,232H220a12,12,0,1,1,12-12Zm16,152V248h16V384Zm116.17-85.55a136.929,136.929,0,0,1-70.39,48.23,8.013,8.013,0,0,0-5.78,7.69V384h-8V248h12a28,28,0,1,0-28-28v12H248V220a28,28,0,1,0-28,28h12V384h-8V354.37a8.013,8.013,0,0,0-5.78-7.69,136.929,136.929,0,0,1-70.39-48.23A134.74,134.74,0,0,1,120,216c0-74.99,61.01-136,136-136s136,61.01,136,136A134.74,134.74,0,0,1,364.17,298.45ZM280,232V220a12,12,0,1,1,12,12Z"/><path d="M357.606,193.706A104.645,104.645,0,0,1,360,216a8,8,0,0,0,16,0,120.7,120.7,0,0,0-2.762-25.706,8,8,0,0,0-15.632,3.412Z"/><path d="M320.96,115.088A119.58,119.58,0,0,0,256,96a8,8,0,0,0,0,16,104.553,104.553,0,0,1,94,59.433,8,8,0,1,0,14.452-6.866A120.246,120.246,0,0,0,320.96,115.088Z"/><path d="M256,48a8,8,0,0,0,8-8V16a8,8,0,0,0-16,0V40A8,8,0,0,0,256,48Z"/><path d="M80,208H56a8,8,0,0,0,0,16H80a8,8,0,0,0,0-16Z"/><path d="M464,216a8,8,0,0,1-8,8H432a8,8,0,0,1,0-16h24A8,8,0,0,1,464,216Z"/>
-                                    <path d="M125.893,334.794l-16.971,16.97a8,8,0,1,0,11.313,11.314l16.971-16.97a8,8,0,1,0-11.313-11.314Z"/>
-                                    <path d="M380.451,99.549a7.974,7.974,0,0,0,5.656-2.343l16.971-16.97a8,8,0,1,0-11.313-11.314l-16.971,16.97a8,8,0,0,0,5.657,13.657Z"/>
-                                    <path d="M125.893,97.206a8,8,0,1,0,11.313-11.314l-16.971-16.97a8,8,0,1,0-11.313,11.314Z"/>
-                                    <path d="M386.107,334.794a8,8,0,1,0-11.313,11.314l16.971,16.97a8,8,0,1,0,11.313-11.314Z"/>
-                                </g>
-                            </svg>
-                            
-                            <h3>Original design</h3>
+                <h3>Original design</h3>
+              </div>
+              <div class="service-desc">
+                <span
+                  >Your brand has its own identity and my job is to present your
+                  mission and values, the best way possible.</span
+                >
+              </div>
+            </li>
+            <li class="animate__animated animate__slow">
+              <div class="icon-text">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="512"
+                  height="512"
+                  viewBox="0 0 512 512"
+                >
+                  <g>
+                    <path
+                      d="M476,184h-4V108a28.031,28.031,0,0,0-28-28H68a28.031,28.031,0,0,0-28,28V232H36A28.031,28.031,0,0,0,8,260V396a28.031,28.031,0,0,0,28,28h72a28.031,28.031,0,0,0,28-28V368h69.75l-4,16H184a8,8,0,0,0-8,8v24a8,8,0,0,0,8,8H328a8,8,0,0,0,8-8V392a8,8,0,0,0-8-8H310.25l-4-16H344v28a28.031,28.031,0,0,0,28,28H476a28.031,28.031,0,0,0,28-28V212A28.031,28.031,0,0,0,476,184ZM120,396a12.01,12.01,0,0,1-12,12H36a12.01,12.01,0,0,1-12-12V260a12.01,12.01,0,0,1,12-12h6.23l6.18,18.53A8,8,0,0,0,56,272H88a8,8,0,0,0,7.59-5.47L101.77,248H108a12.01,12.01,0,0,1,12,12ZM59.1,248H84.9l-2.67,8H61.77ZM320,400v8H192v-8ZM218.25,384l4-16h67.5l4,16ZM344,352H136V320H344Zm0-140v92H136V260a28.031,28.031,0,0,0-28-28H56V108A12.01,12.01,0,0,1,68,96H444a12.01,12.01,0,0,1,12,12v76H372A28.031,28.031,0,0,0,344,212Zm92.9-12-2.67,8H413.77l-2.67-8ZM488,396a12.01,12.01,0,0,1-12,12H372a12.01,12.01,0,0,1-12-12V212a12.01,12.01,0,0,1,12-12h22.23l6.18,18.53A8,8,0,0,0,408,224h32a8,8,0,0,0,7.59-5.47L453.77,200H476a12.01,12.01,0,0,1,12,12Z"
+                    />
+                    <path d="M440,384H408a8,8,0,0,0,0,16h32a8,8,0,0,0,0-16Z" />
+                    <path d="M88,384H56a8,8,0,0,0,0,16H88a8,8,0,0,0,0-16Z" />
+                    <path d="M264,328H248a8,8,0,0,0,0,16h16a8,8,0,0,0,0-16Z" />
+                  </g>
+                </svg>
 
-                        </div>
-                        <div class="service-desc">
-                            <span>Your brand has its own identity and my job is to present your mission and values, the best way possible.</span>                       
-                        </div>
-                    </li>
-                    <li class="animate__animated animate__slow">
-                        <div class="icon-text">
-                        
-                            <svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
-                                <g>
-                                    <path d="M476,184h-4V108a28.031,28.031,0,0,0-28-28H68a28.031,28.031,0,0,0-28,28V232H36A28.031,28.031,0,0,0,8,260V396a28.031,28.031,0,0,0,28,28h72a28.031,28.031,0,0,0,28-28V368h69.75l-4,16H184a8,8,0,0,0-8,8v24a8,8,0,0,0,8,8H328a8,8,0,0,0,8-8V392a8,8,0,0,0-8-8H310.25l-4-16H344v28a28.031,28.031,0,0,0,28,28H476a28.031,28.031,0,0,0,28-28V212A28.031,28.031,0,0,0,476,184ZM120,396a12.01,12.01,0,0,1-12,12H36a12.01,12.01,0,0,1-12-12V260a12.01,12.01,0,0,1,12-12h6.23l6.18,18.53A8,8,0,0,0,56,272H88a8,8,0,0,0,7.59-5.47L101.77,248H108a12.01,12.01,0,0,1,12,12ZM59.1,248H84.9l-2.67,8H61.77ZM320,400v8H192v-8ZM218.25,384l4-16h67.5l4,16ZM344,352H136V320H344Zm0-140v92H136V260a28.031,28.031,0,0,0-28-28H56V108A12.01,12.01,0,0,1,68,96H444a12.01,12.01,0,0,1,12,12v76H372A28.031,28.031,0,0,0,344,212Zm92.9-12-2.67,8H413.77l-2.67-8ZM488,396a12.01,12.01,0,0,1-12,12H372a12.01,12.01,0,0,1-12-12V212a12.01,12.01,0,0,1,12-12h22.23l6.18,18.53A8,8,0,0,0,408,224h32a8,8,0,0,0,7.59-5.47L453.77,200H476a12.01,12.01,0,0,1,12,12Z"/>
-                                    <path d="M440,384H408a8,8,0,0,0,0,16h32a8,8,0,0,0,0-16Z"/>
-                                    <path d="M88,384H56a8,8,0,0,0,0,16H88a8,8,0,0,0,0-16Z"/>
-                                    <path d="M264,328H248a8,8,0,0,0,0,16h16a8,8,0,0,0,0-16Z"/>
-                                </g>
-                            </svg>
+                <h3>Suitable for all devices</h3>
+              </div>
+              <div class="service-desc">
+                <span
+                  >Did you know that more than 50% percent of website traffic
+                  worldwide is from mobile devices? That's why is so important
+                  to have good mobile version.
+                </span>
+              </div>
+            </li>
+          </ul>
+        </div>
 
-                            <h3>Suitable for all devices</h3>
-                            
-                        </div>
-                        <div class="service-desc">
-                            <span>Did you know that more than 50% percent of website traffic worldwide is from mobile devices? That's why is so important to have good mobile version. </span>
-                        </div>
-                    </li>
-                </ul>                           
-            </div>   
-            
-            <div class="wrapper-content">
-                <h2>My tools</h2>
-                <ul class="hard-list wrapper-skills" >
-                    <li class="animate__animated animate__slow">
-                        <div class="icon-text">
-                            <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="31.125px" height="31.125px" viewBox="0 0 31.125 31.125" >
-                                <g>
-                                    <path d="M0.001,15.563c0,6.159,3.579,11.483,8.771,14.007L1.348,9.23C0.487,11.164,0.001,13.306,0.001,15.563z M26.069,14.776                                 c0-1.923-0.69-3.255-1.283-4.291c-0.787-1.284-1.528-2.366-1.528-3.649c0-1.429,1.086-2.762,2.613-2.762
+        <div class="wrapper-content">
+          <h2>My tools</h2>
+          <ul class="hard-list wrapper-skills">
+            <li class="animate__animated animate__slow">
+              <div class="icon-text">
+                <svg
+                  version="1.1"
+                  xmlns="http://www.w3.org/2000/svg"
+                  xmlns:xlink="http://www.w3.org/1999/xlink"
+                  x="0px"
+                  y="0px"
+                  width="31.125px"
+                  height="31.125px"
+                  viewBox="0 0 31.125 31.125"
+                >
+                  <g>
+                    <path
+                      d="M0.001,15.563c0,6.159,3.579,11.483,8.771,14.007L1.348,9.23C0.487,11.164,0.001,13.306,0.001,15.563z M26.069,14.776                                 c0-1.923-0.69-3.255-1.283-4.291c-0.787-1.284-1.528-2.366-1.528-3.649c0-1.429,1.086-2.762,2.613-2.762
                                     c0.068,0,0.134,0.008,0.203,0.011C23.304,1.549,19.615,0,15.565,0C10.127,0,5.345,2.79,2.562,7.016
                                     c0.365,0.011,3.153-0.094,3.153-0.094l5.981,18.2l3.406-10.213l-2.776-8.073h5.146l5.859,18.158l1.555-5.188 C25.673,17.784,26.069,16.109,26.069,14.776z M15.836,16.925l-4.67,13.566c1.396,0.409,2.869,0.634,4.398,0.634
                                     c1.811,0,3.55-0.314,5.167-0.881c-0.041-0.067-0.082-0.139-0.113-0.215L15.836,16.925z M29.218,8.096
-                                    c0.068,0.496,0.105,1.027,0.105,1.602c0,1.578-0.297,3.353-1.186,5.572l-4.752,13.743c4.627-2.698,7.737-7.709,7.737-13.45 C31.125,12.856,30.433,10.312,29.218,8.096z"/>
-                                </g>
-                            </svg>
-                            <span>Wordpress</span>
-                        </div>
-                        <div class="progress">
-                            <span class="progress-bar" style="width: 75%"></span>
-                        </div>
-                    </li>
-                    <li class="animate__animated animate__slow">
-                        <div class="icon-text">
-                            <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
-                                <path d="M512,256c0,15.485-1.379,30.647-4.012,45.369C486.578,421.115,381.9,512,256,512
+                                    c0.068,0.496,0.105,1.027,0.105,1.602c0,1.578-0.297,3.353-1.186,5.572l-4.752,13.743c4.627-2.698,7.737-7.709,7.737-13.45 C31.125,12.856,30.433,10.312,29.218,8.096z"
+                    />
+                  </g>
+                </svg>
+                <span>Wordpress</span>
+              </div>
+              <div class="progress">
+                <span class="progress-bar" style="width: 75%"></span>
+              </div>
+            </li>
+            <li class="animate__animated animate__slow">
+              <div class="icon-text">
+                <svg
+                  version="1.1"
+                  xmlns="http://www.w3.org/2000/svg"
+                  xmlns:xlink="http://www.w3.org/1999/xlink"
+                  x="0px"
+                  y="0px"
+                  viewBox="0 0 512 512"
+                  style="enable-background: new 0 0 512 512"
+                  xml:space="preserve"
+                >
+                  <path
+                    d="M512,256c0,15.485-1.379,30.647-4.012,45.369C486.578,421.115,381.9,512,256,512
                                     c-94.856,0-177.664-51.587-221.884-128.24c-10.794-18.693-19.278-38.87-25.088-60.155C3.135,302.07,0,279.395,0,256
-                                    C0,114.615,114.615,0,256,0c116.694,0,215.144,78.075,245.979,184.842C508.5,207.433,512,231.309,512,256z"/>
-                                <g>
-                                    <path style="fill:#fff;" d="M130.173,178.239H35.892L9.028,323.605c5.81,21.285,14.294,41.462,25.088,60.155h8.746
+                                    C0,114.615,114.615,0,256,0c116.694,0,215.144,78.075,245.979,184.842C508.5,207.433,512,231.309,512,256z"
+                  />
+                  <g>
+                    <path
+                      style="fill: #fff"
+                      d="M130.173,178.239H35.892L9.028,323.605c5.81,21.285,14.294,41.462,25.088,60.155h8.746
                                         l10.407-56.299h51.806c63.08,0,80.039-56.633,84.104-84.449C193.254,215.207,172.91,178.239,130.173,178.239z M143.851,247.703
-                                        c-2.309,15.768-13.96,47.877-49.716,47.877H59.162l15.632-84.605h35.6C145.095,210.975,146.16,231.936,143.851,247.703z"/>
-                                    <path style="fill:#fff;" d="M501.979,184.842c-8.014-4.138-17.565-6.604-28.599-6.604h-94.281L341.117,383.76h44.951
+                                        c-2.309,15.768-13.96,47.877-49.716,47.877H59.162l15.632-84.605h35.6C145.095,210.975,146.16,231.936,143.851,247.703z"
+                    />
+                    <path
+                      style="fill: #fff"
+                      d="M501.979,184.842c-8.014-4.138-17.565-6.604-28.599-6.604h-94.281L341.117,383.76h44.951
                                         l10.407-56.299h51.806c28.056,0,46.989-11.201,59.705-26.091C510.621,286.647,512,271.485,512,256
                                         C512,231.309,508.5,207.433,501.979,184.842z M487.058,247.703c-2.309,15.768-13.96,47.877-49.727,47.877h-34.962l15.632-84.605
-                                        h35.6C488.302,210.975,489.367,231.936,487.058,247.703z"/>
-                                    <path style="fill:#fff;" d="M309.238,178.919c-18.295,0-42.704,0-54.597,0l10.248-55.451h-44.766L182.14,328.984h44.766
+                                        h35.6C488.302,210.975,489.367,231.936,487.058,247.703z"
+                    />
+                    <path
+                      style="fill: #fff"
+                      d="M309.238,178.919c-18.295,0-42.704,0-54.597,0l10.248-55.451h-44.766L182.14,328.984h44.766
                                         l21.843-118.186c8.07,0,18.79,0,28.61,0c18.991,0,31.879,4.07,29.165,21.705c-2.713,17.635-18.313,95.636-18.313,95.636h45.444
-                                        c0,0,17.635-86.818,20.348-111.237C356.717,192.484,334.334,178.919,309.238,178.919z"/>
-                                </g>
-                            </svg>
-                            <span>PHP</span>
-                        </div>
-                        <div class="progress">
-                            <span class="progress-bar" style="width: 70%"></span>
-                        </div>
-                    </li>                        
-                    <li class="animate__animated animate__slow">
-                        <div class="icon-text">
-                            <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-                                    viewBox="0 0 434.147 434.147" style="enable-background:new 0 0 434.147 434.147;" xml:space="preserve">
-                                <path d="M27.336,14.372l28.177,360.474c0.423,5.413,4.087,10.029,9.263,11.67l148.268,47.008
+                                        c0,0,17.635-86.818,20.348-111.237C356.717,192.484,334.334,178.919,309.238,178.919z"
+                    />
+                  </g>
+                </svg>
+                <span>PHP</span>
+              </div>
+              <div class="progress">
+                <span class="progress-bar" style="width: 70%"></span>
+              </div>
+            </li>
+            <li class="animate__animated animate__slow">
+              <div class="icon-text">
+                <svg
+                  version="1.1"
+                  id="Layer_1"
+                  xmlns="http://www.w3.org/2000/svg"
+                  xmlns:xlink="http://www.w3.org/1999/xlink"
+                  x="0px"
+                  y="0px"
+                  viewBox="0 0 434.147 434.147"
+                  style="enable-background: new 0 0 434.147 434.147"
+                  xml:space="preserve"
+                >
+                  <path
+                    d="M27.336,14.372l28.177,360.474c0.423,5.413,4.087,10.029,9.263,11.67l148.268,47.008
                                     c2.622,0.831,5.437,0.831,8.059,0l148.268-47.008c5.176-1.641,8.84-6.257,9.263-11.67l28.177-360.474
                                     C407.417,6.622,401.292,0,393.519,0H40.629C32.856,0,26.731,6.622,27.336,14.372z M334.553,126.215H150.918l5.542,51.105h174.099
                                     L319.17,323.013l-102.096,32.369l-102.096-32.369l-5.95-76.116h53.588v37.336l55.89,15l55.556-15l4.31-59.503H107.295L95.937,79.419
-                                    H338.21L334.553,126.215z"/>
-                            </svg>
-                            <span>HTML</span>
-                        </div>
-                        <div class="progress">
-                            <span class="progress-bar" style="width: 90%"></span>
-                        </div>
-                    </li>
-                    <li class="animate__animated animate__slow">
-                        <div class="icon-text">
-                            <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-                                    viewBox="0 0 470.699 470.699" >
-                                <path d="M426.981,0H43.701C34.52,0,27.632,7.769,28.442,16.949L63.45,409.254c0.811,9.173,8.745,18.774,17.644,21.253
+                                    H338.21L334.553,126.215z"
+                  />
+                </svg>
+                <span>HTML</span>
+              </div>
+              <div class="progress">
+                <span class="progress-bar" style="width: 90%"></span>
+              </div>
+            </li>
+            <li class="animate__animated animate__slow">
+              <div class="icon-text">
+                <svg
+                  version="1.1"
+                  xmlns="http://www.w3.org/2000/svg"
+                  xmlns:xlink="http://www.w3.org/1999/xlink"
+                  x="0px"
+                  y="0px"
+                  viewBox="0 0 470.699 470.699"
+                >
+                  <path
+                    d="M426.981,0H43.701C34.52,0,27.632,7.769,28.442,16.949L63.45,409.254c0.811,9.173,8.745,18.774,17.644,21.253
                                     l138.006,38.335c8.887,2.463,23.413,2.479,32.313,0.032l138.177-38.281c8.901-2.472,16.835-11.986,17.645-21.175l35.023-392.469
                                     C443.068,7.769,436.209,0,426.981,0z M360.51,141.611c-0.006,0.06-0.053,0.107-0.112,0.117c-0.06,0.01-0.118-0.021-0.144-0.077
                                     L252.13,185.96c-1.54,0.631-2.418,2.264-2.098,3.897c0.322,1.633,1.754,2.811,3.419,2.811h84.103c4.474,0,8.736,1.9,11.728,5.227
@@ -215,66 +347,93 @@
                                     c-0.508-4.601,2.088-8.982,6.366-10.745l111.837-46.109c1.269-0.523,1.99-1.868,1.724-3.214c-0.267-1.345-1.446-2.314-2.817-2.314
                                     H115.542c-3.545,0-6.518-2.677-6.888-6.201l-3.406-32.421c-0.205-1.951,0.428-3.898,1.741-5.357
                                     c1.313-1.458,3.184-2.291,5.146-2.291h246.379c1.973,0,3.852,0.842,5.166,2.313c1.314,1.472,1.938,3.434,1.715,5.394L360.51,141.611
-                                    z"/>
-                            </svg>
-                            <span>CSS</span>
-                        </div>
-                        <div class="progress">
-                            <span class="progress-bar" style="width: 90%"></span>
-                        </div>
-                    </li>
-                    <li class="animate__animated animate__slow">  
-                        <div class="icon-text">                                    
-                            <svg height="368pt" viewBox="0 0 368 368" width="368pt" xmlns="http://www.w3.org/2000/svg">
-                                <path d="m344 0h-320c-13.230469 0-24 10.769531-24 24v320c0 13.230469 10.769531 24 24 24h320c13.230469 0 24-10.769531 24-24v-320c0-13.230469-10.769531-24-24-24zm8 344c0 4.414062-3.59375 8-8 8h-320c-4.40625 0-8-3.585938-8-8v-320c0-4.40625 3.59375-8 8-8h320c4.40625 0 8 3.59375 8 8zm0 0"/><path d="m216 64h-112c-4.414062 0-8 3.585938-8 8v224c0 4.425781 3.585938 8 8 8h112c30.878906 0 56-25.128906 56-56v-16c0-20.34375-10.902344-38.191406-27.175781-48 16.273437-9.808594 27.175781-27.65625 27.175781-48v-16c0-30.878906-25.121094-56-56-56zm40 168v16c0 22.054688-17.945312 40-40 40h-104v-96h104c22.054688 0 40 17.945312 40 40zm0-96c0 22.054688-17.945312 40-40 40h-104v-96h104c22.054688 0 40 17.945312 40 40zm0 0"/>
-                            </svg>
-                            <span>Bootstrap</span>
-                        </div>
-                        <div class="progress">
-                            <span class="progress-bar" style="width: 70%"></span>
-                        </div>
-                    </li>                               
-                    <li class="animate__animated animate__slow">    
-                        <div class="icon-text">                            
-                            <svg height="512pt" viewBox="-21 0 512 512" width="512pt" xmlns="http://www.w3.org/2000/svg">
-                                <path d="m466.578125 3.5c-2.027344-2.21875-4.886719-3.5-7.914063-3.5h-448c-3.03125 0-5.890624 1.28125-7.917968 3.5-2.023438 2.261719-3.007813 5.226562-2.6875002 8.234375l42.6679682 426.664063c.425782 4.183593 3.242188 7.722656 7.230469 9.066406l192 64c1.109375.34375 2.21875.535156 3.371094.535156 1.28125 0 2.539063-.234375 3.753906-.683594l170.667969-64c3.796875-1.40625 6.464844-4.882812 6.847656-8.917968l42.667969-426.664063c.320313-3.007813-.664063-5.972656-2.6875-8.234375zm0 0" fill="#fff"/>
-                                <path d="m245.328125 512c-1.152344 0-2.261719-.191406-3.371094-.535156l-192-64c-3.988281-1.320313-6.804687-4.882813-7.230469-9.066406l-42.6679682-426.664063c-.3203128-3.007813.6640622-5.972656 2.6875002-8.234375 2.027344-2.21875 4.886718-3.5 7.917968-3.5h448c3.027344 0 5.886719 1.28125 7.914063 3.5 2.023437 2.238281 3.007813 5.226562 2.6875 8.234375l-42.667969 426.664063c-.40625 4.035156-3.070312 7.511718-6.847656 8.917968l-170.667969 64c-1.214843.449219-2.472656.683594-3.753906.683594zm-182.078125-82.601562 181.867188 60.628906 160.914062-60.351563 40.832031-408.34375h-424.402343zm0 0"/>
-                                <path d="m266.664062 394.667969c-4.460937 0-8.621093-2.839844-10.136718-7.296875-1.855469-5.589844 1.175781-11.628906 6.742187-13.503906l58.007813-19.328126 17.941406-98.539062h-72.554688c-5.890624 0-10.667968-4.777344-10.667968-10.667969v-128c0-5.886719 4.777344-10.664062 10.667968-10.664062h106.664063c3.285156 0 6.402344 1.511719 8.425781 4.09375 2.027344 2.582031 2.730469 5.953125 1.941406 9.152343l-10.664062 42.667969c-1.429688 5.714844-7.148438 9.128907-12.929688 7.765625-5.738281-1.429687-9.195312-7.234375-7.765624-12.929687l7.316406-29.417969h-82.324219v106.667969h74.667969c3.15625 0 6.164062 1.386719 8.191406 3.839843 2.027344 2.410157 2.878906 5.628907 2.304688 8.746094l-21.335938 117.332032c-.703125 3.839843-3.433594 6.976562-7.125 8.214843l-64 21.332031c-1.128906.363282-2.238281.535157-3.367188.535157zm0 0"/>
-                                <path d="m223.996094 394.667969c-.980469 0-1.964844-.128907-2.945313-.429688l-74.664062-21.332031c-3.84375-1.085938-6.722657-4.246094-7.53125-8.171875l-10.667969-53.332031c-1.171875-5.78125 2.582031-11.390625 8.382812-12.542969 5.484376-1.214844 11.371094 2.558594 12.546876 8.382813l9.386718 46.933593 54.824219 15.679688v-241.855469h-117.332031c-5.886719 0-10.667969-4.777344-10.667969-10.667969 0-5.886719 4.78125-10.664062 10.667969-10.664062h128c5.886718 0 10.667968 4.777343 10.667968 10.664062v266.667969c0 3.347656-1.558593 6.507812-4.246093 8.511719-1.878907 1.429687-4.140625 2.15625-6.421875 2.15625zm0 0"/>
-                            </svg>
-                            <span>JavaScript</span>
-                        </div>
-                        <div class="progress">
-                            <span class="progress-bar" style="width: 60%"></span>
-                        </div>
-                    </li>
-                </ul>
-            </div>
+                                    z"
+                  />
+                </svg>
+                <span>CSS</span>
+              </div>
+              <div class="progress">
+                <span class="progress-bar" style="width: 90%"></span>
+              </div>
+            </li>
+            <li class="animate__animated animate__slow">
+              <div class="icon-text">
+                <svg
+                  height="368pt"
+                  viewBox="0 0 368 368"
+                  width="368pt"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="m344 0h-320c-13.230469 0-24 10.769531-24 24v320c0 13.230469 10.769531 24 24 24h320c13.230469 0 24-10.769531 24-24v-320c0-13.230469-10.769531-24-24-24zm8 344c0 4.414062-3.59375 8-8 8h-320c-4.40625 0-8-3.585938-8-8v-320c0-4.40625 3.59375-8 8-8h320c4.40625 0 8 3.59375 8 8zm0 0"
+                  />
+                  <path
+                    d="m216 64h-112c-4.414062 0-8 3.585938-8 8v224c0 4.425781 3.585938 8 8 8h112c30.878906 0 56-25.128906 56-56v-16c0-20.34375-10.902344-38.191406-27.175781-48 16.273437-9.808594 27.175781-27.65625 27.175781-48v-16c0-30.878906-25.121094-56-56-56zm40 168v16c0 22.054688-17.945312 40-40 40h-104v-96h104c22.054688 0 40 17.945312 40 40zm0-96c0 22.054688-17.945312 40-40 40h-104v-96h104c22.054688 0 40 17.945312 40 40zm0 0"
+                  />
+                </svg>
+                <span>Bootstrap</span>
+              </div>
+              <div class="progress">
+                <span class="progress-bar" style="width: 70%"></span>
+              </div>
+            </li>
+            <li class="animate__animated animate__slow">
+              <div class="icon-text">
+                <svg
+                  height="512pt"
+                  viewBox="-21 0 512 512"
+                  width="512pt"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="m466.578125 3.5c-2.027344-2.21875-4.886719-3.5-7.914063-3.5h-448c-3.03125 0-5.890624 1.28125-7.917968 3.5-2.023438 2.261719-3.007813 5.226562-2.6875002 8.234375l42.6679682 426.664063c.425782 4.183593 3.242188 7.722656 7.230469 9.066406l192 64c1.109375.34375 2.21875.535156 3.371094.535156 1.28125 0 2.539063-.234375 3.753906-.683594l170.667969-64c3.796875-1.40625 6.464844-4.882812 6.847656-8.917968l42.667969-426.664063c.320313-3.007813-.664063-5.972656-2.6875-8.234375zm0 0"
+                    fill="#fff"
+                  />
+                  <path
+                    d="m245.328125 512c-1.152344 0-2.261719-.191406-3.371094-.535156l-192-64c-3.988281-1.320313-6.804687-4.882813-7.230469-9.066406l-42.6679682-426.664063c-.3203128-3.007813.6640622-5.972656 2.6875002-8.234375 2.027344-2.21875 4.886718-3.5 7.917968-3.5h448c3.027344 0 5.886719 1.28125 7.914063 3.5 2.023437 2.238281 3.007813 5.226562 2.6875 8.234375l-42.667969 426.664063c-.40625 4.035156-3.070312 7.511718-6.847656 8.917968l-170.667969 64c-1.214843.449219-2.472656.683594-3.753906.683594zm-182.078125-82.601562 181.867188 60.628906 160.914062-60.351563 40.832031-408.34375h-424.402343zm0 0"
+                  />
+                  <path
+                    d="m266.664062 394.667969c-4.460937 0-8.621093-2.839844-10.136718-7.296875-1.855469-5.589844 1.175781-11.628906 6.742187-13.503906l58.007813-19.328126 17.941406-98.539062h-72.554688c-5.890624 0-10.667968-4.777344-10.667968-10.667969v-128c0-5.886719 4.777344-10.664062 10.667968-10.664062h106.664063c3.285156 0 6.402344 1.511719 8.425781 4.09375 2.027344 2.582031 2.730469 5.953125 1.941406 9.152343l-10.664062 42.667969c-1.429688 5.714844-7.148438 9.128907-12.929688 7.765625-5.738281-1.429687-9.195312-7.234375-7.765624-12.929687l7.316406-29.417969h-82.324219v106.667969h74.667969c3.15625 0 6.164062 1.386719 8.191406 3.839843 2.027344 2.410157 2.878906 5.628907 2.304688 8.746094l-21.335938 117.332032c-.703125 3.839843-3.433594 6.976562-7.125 8.214843l-64 21.332031c-1.128906.363282-2.238281.535157-3.367188.535157zm0 0"
+                  />
+                  <path
+                    d="m223.996094 394.667969c-.980469 0-1.964844-.128907-2.945313-.429688l-74.664062-21.332031c-3.84375-1.085938-6.722657-4.246094-7.53125-8.171875l-10.667969-53.332031c-1.171875-5.78125 2.582031-11.390625 8.382812-12.542969 5.484376-1.214844 11.371094 2.558594 12.546876 8.382813l9.386718 46.933593 54.824219 15.679688v-241.855469h-117.332031c-5.886719 0-10.667969-4.777344-10.667969-10.667969 0-5.886719 4.78125-10.664062 10.667969-10.664062h128c5.886718 0 10.667968 4.777343 10.667968 10.664062v266.667969c0 3.347656-1.558593 6.507812-4.246093 8.511719-1.878907 1.429687-4.140625 2.15625-6.421875 2.15625zm0 0"
+                  />
+                </svg>
+                <span>JavaScript</span>
+              </div>
+              <div class="progress">
+                <span class="progress-bar" style="width: 60%"></span>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </main>
 
-        </main>
-        
-        <footer class="site-footer">
-            <div class="footer-wrapper">
-                <div class="left-column">
-                    <h2 class="trade-mark">D-NewMe</h2>
-                    <div class="footer-nav">
-                            <ul>
-                            <li class="active"><a href="index.html">Home</a></li>                 
-                            <li><a href="projects.html">Projects</a></li>
-                            <li><a href="gallery.html">Gallery</a></li>
-                        </ul> 
-                    </div>
-                </div>
-               
-                <div class="right-column">
-                    <p>D-NewMe - 2021</p>
-                    <div class="contribution">Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
-                </div> 
+      <footer class="site-footer">
+        <div class="footer-wrapper">
+          <div class="left-column">
+            <h2 class="trade-mark">D-NewMe</h2>
+            <div class="footer-nav">
+              <ul>
+                <li class="active"><a href="index.html">Home</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+              </ul>
             </div>
-                    
-        </footer>
+          </div>
 
+          <div class="right-column">
+            <p>D-NewMe - 2021</p>
+            <div class="contribution">
+              Icons made by
+              <a href="https://www.freepik.com" title="Freepik">Freepik</a> from
+              <a href="https://www.flaticon.com/" title="Flaticon"
+                >www.flaticon.com</a
+              >
+            </div>
+          </div>
+        </div>
+      </footer>
     </div>
-
-</body>
+  </body>
 </html>

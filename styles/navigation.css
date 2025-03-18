@@ -25,15 +25,15 @@
         font-family: "Titillium Web", sans-serif;
         font-size: 1.3em;
         font-weight: 700;
-        color: #fff;
+        color: rgba(53, 13, 130, 0.8);
 
         &:hover {
-          color: var(--accent-color);
+          color: darkgoldenrod;
         }
       }
 
       &.active a {
-        color: var(--accent-color);
+        color: darkgoldenrod;
       }
     }
   }

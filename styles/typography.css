@@ -119,6 +119,7 @@ p, ul, ol {
   span {
     padding-bottom: 0;
     font-size: 2.2em;
+    color: rgba(53, 13, 130, 0.8);
   }
 }
 
@@ -141,7 +142,7 @@ ol {
       top: 12%;
       width: 1.35em;
       content: counter(inst);
-      background: var(--background-color);
+      background: var(--title-color);
       color: #fff;
       font-size: 1.5em;
       font-weight: 700;

@@ -1,13 +1,10 @@
 /*Main*/
 .site {
-  background: linear-gradient(
-    30deg,
-    rgba(53, 13, 130, 0.5) 30%,
-    rgba(128, 33, 181, 0.9) 70%
-  );
+  background: linear-gradient(30deg, rgba(53, 13, 130, 0.6) 30%, rgba(128, 33, 181, 0.2) 70%);
+}
 
   main {
-    max-width: 80%;
+    max-width: 95%;
     margin: auto;
     margin-top: -18em;
     margin-bottom: 5em;

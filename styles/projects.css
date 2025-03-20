@@ -52,7 +52,7 @@
         max-width: 100%;
         padding-block: 1em;
 
-        a {
+        h3, a {
             color: #fff;
         }
     }

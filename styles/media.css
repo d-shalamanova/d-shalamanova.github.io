@@ -1,4 +1,4 @@
-/*Responsive*/
+/* Large displays */
 
 @media (min-width: 992px) and (max-width: 1199px) {
   /*Header*/
@@ -31,7 +31,7 @@
     }
 
     h2 {
-        font-size: 1.5em;
+        font-size: 2em;
     }
 
     .site-wrapper .site-title {
@@ -75,6 +75,7 @@
     }
 }
 
+/* Desktop */
 @media (min-width: 768px) and (max-width: 991px) {
     /*Header*/
     header {
@@ -107,16 +108,12 @@
     }
 
     .headerParagraph span {
-        font-size: 1.9em;
+        font-size: 1.8em;
         line-height: 1.3;
     }
 
     .wrapper-content {
         margin-bottom: 4em;
-    }
-
-    h2 {
-        font-size: 1.3em;
     }
     
     ol li {
@@ -183,23 +180,23 @@
         width: 60% !important;
     }
 }
-
+/* Tablet */
 @media (max-width: 767px) {
     /*Header*/
     header {
-        padding-top: 45vh;
+        padding-top: 50vh;
 
         .site-header {
             min-width: 100%;
             justify-content: center;
     
-            .inner-header {
-                flex-direction: column;
+            .inner-header .site-nav {
+                justify-content: center;
+                
+                ul li {
+                    padding: 1em 0em;
 
-                .site-nav {
-                    justify-content: center;
-                    
-                    ul li a {
+                    a {
                         padding: 0 1em;
                     }
                 }
@@ -225,7 +222,7 @@
         }
         
         span {
-            font-size: 1.7em;
+            font-size: 1.5em;
             line-height: 1;
         }
     }
@@ -236,8 +233,8 @@
 
     /*Main*/
     main {
-        max-width: 100%;
-        padding: 1em;
+        max-width: 100% !important;
+        padding: 1em !important;
 
         .wrapper-content {
             margin-bottom: 2em;
@@ -248,14 +245,19 @@
                 min-width: 100%;
             }
 
+            .wrapper-text {
+                margin-right: 0;
+                padding: 0.5em;
+            }
+
             .wrapper-media {
                 align-self: center;
                 grid-area: media;
                 align-self: center;
             }
 
-            .wrapper-media-inner {
-                padding-bottom: 40%;
+            .background-layer {
+                grid-column: 1 / 7;
             }
         }
     }
@@ -265,15 +267,9 @@
     }
 
     .grid-my-story {
-        grid-template-rows: 0.5fr 1fr 1fr;
         grid-template-areas:
         "media media media media media media"
         "story story story story story story"
-        "only-story only-story only-story only-story only-story only-story";
-    }
-
-    h2 {
-        font-size: 1.1em;
     }
 
     .site-wrapper .site-title {
@@ -352,9 +348,18 @@
         "service1 service1 service1 service1 service1 service1"
         "service2 service2 service2 service2 service2 service2"
         "service3 service3 service3 service3 service3 service3";
+        grid-gap: 0;
+
+        svg {
+            width: 18% !important;
+        }
     }
 
     /*Projects*/
+    .inner-wrapper-project {
+        flex-direction: column;
+    }
+
     .wrapper-project .project-text,
     .wrapper-project .project-media {
         flex: 1 0 100%;
@@ -399,5 +404,9 @@
     /*Gallery*/
     .gallery-items img {
         width: 100%;
+    }
+
+    .footer-nav ul {
+        gap: 1em;
     }
 }

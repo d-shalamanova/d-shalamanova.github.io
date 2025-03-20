@@ -31,7 +31,7 @@ h1 {
 }
 
 h2 {
-    color: #777;
+    color: darkgoldenrod;
     padding-top: 0.5em;
     margin-bottom: 2em;
 }
@@ -72,6 +72,7 @@ h3::after {
 
 h3 {
     padding-bottom: 1em;
+    color: darkgoldenrod;
 }
 
 h1 {
@@ -107,7 +108,7 @@ p, ul, ol {
 
 .headerParagraph {
     box-shadow: 1px 4px 14px -6px #000;
-    background: #ffff0021;
+    background: #ffffaa;
     padding: 0 0.5em;
     font-family: "Titillium Web", sans-serif;
     font-weight: 600;

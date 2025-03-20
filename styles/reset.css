@@ -1,24 +1,24 @@
 * {
-  padding: 0;
-  margin: 0;
+    padding: 0;
+    margin: 0;
 }
 
 html {
-  box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 *,
 *:before,
 *:after {
-  box-sizing: inherit;
+    box-sizing: inherit;
 }
 
 /*Vars*/
 :root {
-  --primary-color: #b7f7cd;
-  --background-color: #505061;
-  --accent-color: #f6f7b7;
-  --title-color: #f7dddc;
-  --padding-sides: 5em;
-  --padding-top-bottom: 7em;
+    --primary-color: #b7f7cd;
+    --background-color: #505061;
+    --accent-color: #f6f7b7;
+    --title-color: #f7dddc;
+    --padding-sides: 3em;
+    --padding-top-bottom: 4em;
 }

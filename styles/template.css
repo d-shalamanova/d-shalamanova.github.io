@@ -1,140 +1,143 @@
 @import url("https://fonts.googleapis.com/css?family=Lato");
 .wrapper-js-project {
-  font-family: "Lato", sans-serif;
-  color: #234465;
-  margin-bottom: 7em;
+    font-family: "Lato", sans-serif;
+    color: #234465;
+    margin-bottom: 7em;
 
-  #exercise {
-    margin: 3% auto;
-    padding: 1rem;
-    border: 1px solid lightgrey;
-  }
-  h3 {
-    padding-bottom: 3em;
-  }
-  h4 {
-    margin: 1% auto;
-    text-align: center;
-  }
-  li {
-    font-size: 1rem;
-  }
-
-  input[type="button"],
-  button {
-    display: table;
-    padding: 0.5rem 0.7rem;
-    font-size: 0.8em;
-    margin: 1rem 0;
-    margin: 0 auto;
-    border: none;
-    color: white;
-    background: #234465;
-    border-radius: 5px;
-    outline: none;
-    text-transform: uppercase;
-    font-weight: bold;
-    letter-spacing: 0px;
-    cursor: pointer;
-  }
-
-  #output p,
-  #input {
-    padding: 1%;
-    word-wrap: break-word;
-    font-size: 1em;
-  }
-  
-  #output p {
-    border-bottom: 1px solid lightgrey;
-
-    &:last-of-type {
-      border-bottom: none;
+    #exercise {
+        margin: 3% auto;
+        padding: 1rem;
+        border: 1px solid lightgrey;
     }
-  }
+    
+    h3 {
+        padding-bottom: 3em;
+    }
+    
+    h4 {
+        margin: 1% auto;
+        text-align: center;
+    }
+
+    li {
+        font-size: 1rem;
+    }
+
+    input[type="button"],
+    button {
+        display: table;
+        padding: 0.5rem 0.7rem;
+        font-size: 0.8em;
+        margin: 1rem 0;
+        margin: 0 auto;
+        border: none;
+        color: white;
+        background: #234465;
+        border-radius: 5px;
+        outline: none;
+        text-transform: uppercase;
+        font-weight: bold;
+        letter-spacing: 0px;
+        cursor: pointer;
+    }
+
+    #output p,
+    #input {
+        padding: 1%;
+        word-wrap: break-word;
+        font-size: 1em;
+    }
+    
+    #output p {
+        border-bottom: 1px solid lightgrey;
+
+        &:last-of-type {
+            border-bottom: none;
+        }
+    }
 }
 
 article {
-  width: 45%;
-  margin: 0 auto;
-  background: #8198a2;
-  border-radius: 15px;
-  font-family: "Arial", sans-serif;
-  padding-bottom: 1em;
-
-  h4 {
-    background: #30bfbf;
-    width: auto;
-    padding: 12px;
-    color: white;
-    border-radius: 15px 15px 0px 0px;
-  }
-
-  li {
-    background: white;
-    text-decoration: none;
-    margin: 1rem auto;
-    width: 90%;
-    padding: 0.5rem;
+    width: 45%;
+    margin: 0 auto;
+    background: #8198a2;
     border-radius: 15px;
-    text-align: left;
-    display: flex;
-    justify-content: space-between;
+    font-family: "Arial", sans-serif;
+    padding-bottom: 1em;
 
-    a {
-      text-decoration: none;
-      color: red;
+    h4 {
+        background: #30bfbf;
+        width: auto;
+        padding: 12px;
+        color: white;
+        border-radius: 15px 15px 0px 0px;
     }
-  }
+
+    li {
+        background: white;
+        text-decoration: none;
+        margin: 1rem auto;
+        width: 90%;
+        padding: 0.5rem;
+        border-radius: 15px;
+        text-align: left;
+        display: flex;
+        justify-content: space-between;
+
+        a {
+            text-decoration: none;
+            color: red;
+        }
+    }
 
   .addItems {
-    display: flex;
-    justify-content: space-between;
-    margin: 0 auto;
-    margin-bottom: 1rem;
-  }
+        display: flex;
+        justify-content: space-between;
+        margin: 0 auto;
+        margin-bottom: 1rem;
+    }
 
-  #newText {
-    padding: 0.5rem;
-    border-radius: 15px;
-    border: none;
-    outline: none;
-    width: 65%;
-    margin: 0 auto;
-  }
+    #newText {
+        padding: 0.5rem;
+        border-radius: 15px;
+        border: none;
+        outline: none;
+        width: 65%;
+        margin: 0 auto;
+    }
 }
 
 /*Visited Websites*/
 .wrapper-js-links {
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-  flex-wrap: wrap;
-  border: 1px solid lightgrey;
-  padding: 2rem;
-  background: #8198a2;
-  color: #234465;
-  border-radius: 15px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    border: 1px solid lightgrey;
+    padding: 2rem;
+    background: #8198a2;
+    color: #234465;
+    border-radius: 15px;
 }
 
 .link {
-  a {
-    font-size: 2em;
-    color: #fff;
+    a {
+        font-size: 2em;
+        color: #fff;
 
-    &:hover {
-      color: #234465;
+        &:hover {
+            color: #234465;
+        }
     }
-  }
 
-  p {
-    padding-bottom: 0;
-  }
+    p {
+        padding-bottom: 0;
+    }
 }
 
 .thin {
-  font-weight: 300;
+    font-weight: 300;
 }
 .thick {
-  font-weight: 900;
+    font-weight: 900;
 }

@@ -4,27 +4,28 @@ header {
     padding-top: 60vh;
     background-position: top;
     background-repeat: no-repeat;
-    background-image: linear-gradient(rgb(0, 0, 0, 0), rgba(128, 33, 181, 0.2)), url(../images/back-header.jpg);
+    background-image: linear-gradient(rgb(0, 0, 0, 0), rgba(128, 33, 181, 0.2)),
+        url(../images/back-header.jpg);
     background-size: cover, cover;
-  
+
     .site-header {
-      position: fixed;
-      top: 0;
-      left: 0;
-      width: 100%;
-      background: rgba(255, 255, 255, 0.9);;
-      box-shadow: 0 0 1em rgba(53, 13, 130, 0.7);
-      z-index: 20;
-  
-      .inner-header {
-        display: flex;
-        width: 80%;
-        margin: 0 auto;
-        align-items: center;
-  
-        .wrapper-logo a {
-          display: table;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        background: rgba(255, 255, 255, 0.9);
+        box-shadow: 0 0 1em rgba(53, 13, 130, 0.7);
+        z-index: 20;
+
+        .inner-header {
+            display: flex;
+            width: 80%;
+            margin: 0 auto;
+            align-items: center;
+
+            .wrapper-logo a {
+                display: table;
+            }
         }
-      }
     }
-  }
+}

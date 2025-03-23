@@ -162,15 +162,32 @@ function solve() {
 }
 
 //Play animation when content get into view  
-$(document).ready(function () {
-	$(document).scroll(function (evt) {
-		if ($(this).scrollTop() >= $('.wrapper-services').position().top - $(window).height() / 2 + 20) {
-			$('.wrapper-services li').css({ display: 'block' });
-			$('.wrapper-services li').addClass('animate__flipInY')
-		}
-		if ($(this).scrollTop() >= $('.wrapper-skills').position().top - $(window).height() / 2 + 20) {
-			$('.wrapper-skills li').css({ display: 'block' });
-			$('.wrapper-skills li').addClass('animate__flipInX')
-		}
-	});
-});
+// $(document).ready(function () {
+// 	$(document).scroll(function (evt) {
+// 		if ($(this).scrollTop() >= $('.wrapper-services').position().top - $(window).height() / 2 + 20) {
+// 			$('.wrapper-services li').css({ display: 'block' });
+// 			$('.wrapper-services li').addClass('animate__flipInY')
+// 		}
+// 		if ($(this).scrollTop() >= $('.wrapper-skills').position().top - $(window).height() / 2 + 20) {
+// 			$('.wrapper-skills li').css({ display: 'block' });
+// 			$('.wrapper-skills li').addClass('animate__flipInX')
+// 		}
+// 	});
+// });
+
+/* ===================================
+       Header appear
+   ====================================== */
+// jQuery(function ($) {
+
+//     "use strict";
+// 	console.log('here');
+
+//     $(window).on('scroll', function () {
+//         if ($(this).scrollTop() > 260) { // Set position from top to add class
+//             $('header').addClass('header-appear');
+//         } else {
+//             $('header').removeClass('header-appear');
+//         }
+//     });
+// });

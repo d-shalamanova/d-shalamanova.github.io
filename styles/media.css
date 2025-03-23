@@ -189,15 +189,17 @@
         .site-header {
             min-width: 100%;
             justify-content: center;
-    
-            .inner-header .site-nav {
-                justify-content: center;
-                
-                ul li {
-                    padding: 1em 0em;
 
-                    a {
-                        padding: 0 1em;
+            .inner-header {
+                .site-nav {
+                    justify-content: center;
+                    
+                    ul li {
+                        padding: 1em 0em;
+
+                        a {
+                            padding: 0 1em;
+                        }
                     }
                 }
             }

@@ -6,8 +6,7 @@
         max-width: 95%;
         margin: auto;
         margin-top: -18em;
-        margin-bottom: 5em;
-        padding: var(--padding-top-bottom) var(--padding-sides);
+        margin-bottom: 5em;   
         position: relative;
         box-shadow: 1px 4px 14px -6px rgb(0 0 0);
         background-color: #fff;
@@ -15,6 +14,7 @@
 
         .wrapper-content {
             margin-bottom: 3em;
+            padding: var(--padding-sides);
 
             &::last-child {
                 margin-bottom: 0;
@@ -23,7 +23,6 @@
 
         .services-block {
             background: linear-gradient(30deg, rgba(53, 13, 130, 0.9) 0%, rgba(128, 33, 181, 0.7) 100%);
-            padding-inline: 1em;
             color: #fff;
 
             h2, h3 {
@@ -33,18 +32,27 @@
     }
 }
 
-.grid-my-story {
-    display: grid;
-    grid-auto-columns: 1fr;
-    grid-auto-rows: 1fr;
-    grid-template-columns: repeat(6, 1fr);
-    grid-template-rows: 1fr 1fr;
-    justify-items: center;
-    grid-template-areas:    "story story story media media media"
-                            "story story story media media media";
-    grid-gap: 0 0;
-    margin-bottom: 3em;
+.wrapper-my-story {
+    background: linear-gradient(30deg, rgba(53, 13, 130, 0.9) 0%, rgba(128, 33, 181, 0.7) 100%);
+    padding-block: var(--padding-sides);
+
+    .grid-my-story {
+        display: grid;
+        grid-auto-columns: 1fr;
+        grid-auto-rows: 1fr;
+        grid-template-columns: repeat(6, 1fr);
+        grid-template-rows: 1fr 1fr;
+        justify-items: center;
+        grid-template-areas:    "story story story media media media"
+                                "story story story media media media";
+        grid-gap: 0 0;
+        
+        p {
+            color: #fff;
+        }
+    }
 }
+
 
 .wrapper-text {
     grid-area: story;
@@ -126,7 +134,7 @@ ul.services-list li {
     svg {
         width: 25%;
         height: auto;
-        fill: rgba(53, 13, 130, 0.8);
+        fill: var(--title-color);
     }
 }
 
@@ -140,7 +148,7 @@ ul.hard-list {
         svg {
             width: 40px;
             height: auto;
-            fill: rgba(53, 13, 130, 0.8);
+            fill: goldenrod;
             margin-right: 12px;
         }
     
@@ -177,6 +185,10 @@ ul.hard-list {
         }
         &:nth-child(3) {
             grid-area: service3;
+        }
+
+        p {
+            color: #fff;
         }
     }
 }

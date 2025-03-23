@@ -93,9 +93,10 @@ h5 {
 }
 
 p, ul, ol {
-    padding-bottom: 1.3em;
-    line-height: 1.5;
-    font-size: 1.3em;
+    padding-bottom: 1.5rem;
+    line-height: 1.6;
+    font-size: 1.1em;
+    color: #323232;
 }
 
 .presentation {

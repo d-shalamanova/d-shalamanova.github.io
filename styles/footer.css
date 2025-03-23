@@ -22,7 +22,7 @@
     }
 
     a {
-        color: var(--backgoround-color);
+        color: #fff;
         font-size: 1.1em;
 
         &:hover {

@@ -125,7 +125,6 @@ p, ul, ol {
 }
 
 ol {
-    padding: 0 2em 1em 2em;
     clear: both;
     list-style: none;
     padding-left: 2%;

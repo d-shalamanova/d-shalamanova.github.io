@@ -1,6 +1,5 @@
 /*Projects*/
 .wrapper-project-process {
-    margin-bottom: 5em;
     position: relative;
 
     h3 {
@@ -17,57 +16,60 @@
 }
 
 .wrapper-project {
-    padding-block: 1em;
-    margin-bottom: 3em;
     background: linear-gradient(
-        30deg,
-        rgba(53, 13, 130, 0.9) 0%,
-        rgba(128, 33, 181, 0.7) 100%
-        );
+            30deg,
+            rgba(53, 13, 130, 0.9) 0%,
+            rgba(128, 33, 181, 0.7) 100%
+            );
 
-    &::last-child {
-        padding-bottom: 0;
-    }
+    .wrapper-project-inner{
+        padding-block: 1em;    
 
-    .project-media {
-        flex: 1 0 40%;
-        max-width: 40%;
-    }
-
-    .project-text {
-        flex: 1 0 60%;
-        max-width: 60%;
-        padding: 2em;
-        color: #fff;
-
-        p {
-            padding-bottom: 1.3em;
-            line-height: 1.5;
-            font-size: 1.1em;
+        &::last-child {
+            padding-bottom: 0;
         }
-    }
 
-    .project-title {
-        flex: 1 0 100%;
-        max-width: 100%;
-        padding-block: 1em;
+        .project-media {
+            flex: 1 0 40%;
+            max-width: 40%;
+        }
 
-        h3, a {
+        .project-text {
+            flex: 1 0 60%;
+            max-width: 60%;
+            padding: 2em;
             color: #fff;
+
+            p {
+                padding-bottom: 1.3em;
+                line-height: 1.5;
+                font-size: 1.1em;
+                color: #fff;
+            }
         }
-    }
 
-    .inner-wrapper-project {
-        display: flex;
-        align-items: center;
-        flex-wrap: wrap;
+        .project-title {
+            flex: 1 0 100%;
+            max-width: 100%;
+            padding-block: 1em;
 
-        h4 {
-            padding-bottom: 1em;
-            font-weight: 400;
-            font-style: italic;
-            text-align: left;
-            letter-spacing: 0.1em;
+            h3, a {
+                color: #fff;
+            }
+        }
+
+        .project-info {
+            display: flex;
+            align-items: center;
+            flex-wrap: wrap;
+
+            h4 {
+                padding-bottom: 1em;
+                font-weight: 400;
+                font-style: italic;
+                text-align: left;
+                letter-spacing: 0.1em;
+            }
         }
     }
 }

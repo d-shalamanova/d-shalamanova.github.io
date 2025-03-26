@@ -92,3 +92,8 @@ p.slogan {
     padding-top: 0;
     margin-bottom: 0.5em;
 }
+
+p.made-by {
+    color: #fff;
+    font-size: 0.7rem;
+}

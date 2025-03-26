@@ -260,6 +260,7 @@ ul.services-list.wrapper-services li {
     display: flex;
     justify-content: center;
     border-radius: 5px;
+    padding-top: 1rem;
 
     a {
         background: rgba(53, 13, 130, 0.8);

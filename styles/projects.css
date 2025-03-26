@@ -1,12 +1,23 @@
 /*Projects*/
 
 .project-process {
-    background: #fff url(/images/web-development.png) no-repeat center right/40%;
+    position: relative;
+    background: #fff url(/images/web-development-small.png) no-repeat center right/30%;
+
+    &::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        background-color: rgba(255, 255, 255, 0.75);
+    }
 }
 .wrapper-project-process {
     position: relative;
     padding: 2em;
-    max-width: 60%;
+    max-width: 60%; 
 
     h3 {
         padding-bottom: 1em;

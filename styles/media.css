@@ -1,7 +1,7 @@
 /* Large displays */
 
 @media (min-width: 992px) and (max-width: 1199px) {
-  /*Header*/
+  /* Header */
     header {
         padding-top: 50vh;
 
@@ -21,7 +21,7 @@
         font-size: 1.4em;
     }
 
-    /*Main*/
+    /* Main */
     main {
         max-width: 90%;
 
@@ -38,7 +38,7 @@
         padding: 0.8em;
     }
     
-    /*Lists*/
+    /* Lists */
     ul {
         font-size: 15px;
 
@@ -58,7 +58,7 @@
         font-size: 1.2em;
     }
 
-    /*Skills*/
+    /* Skills */
     .wrapper-skills {
         grid-template-columns: repeat(8, 1fr);
         align-items: center;
@@ -69,7 +69,7 @@
         "skill5 skill5 skill5 skill5 skill6 skill6 skill6 skill6";
     }
 
-    /*JS projects*/
+    /* JS projects */
     article {
         width: 60% !important;
     }
@@ -77,7 +77,7 @@
 
 /* Desktop */
 @media (min-width: 768px) and (max-width: 991px) {
-    /*Header*/
+    /* Header */
     header {
         padding-top: 50vh;
         
@@ -102,7 +102,7 @@
         font-size: 1.2em;
     }
 
-    /*Main*/
+    /* Main */
     main {
         max-width: 90%;
     }
@@ -136,7 +136,7 @@
         align-self: center;
     }
 
-    /*Lists*/
+    /* Lists */
     ul {
         font-size: 14px;
 
@@ -157,7 +157,7 @@
         height: auto;
     }
 
-    /*Skills*/
+    /* Skills */
     .wrapper-skills {
         grid-template-columns: repeat(8, 1fr);
         align-items: center;
@@ -168,21 +168,27 @@
         "skill5 skill5 skill5 skill5 skill6 skill6 skill6 skill6";
     }
 
-    /*Services*/
+    /* Services */
     .wrapper-services {
         grid-template-areas:
         "service1 service1 service1 service2 service2 service2"
         "service3 service3 service3 service3 service3 service3";
     }
 
-    /*JS projects*/
+    /* JS projects */
     article {
         width: 60% !important;
     }
+
+    /* Gallery */
+    .wrapper-gallery {
+        grid-template-columns: 1fr 1fr !important;
+    } 
 }
+
 /* Tablet */
 @media (max-width: 767px) {
-    /*Header*/
+    /* Header */
     header {
         padding-top: 50vh;
 
@@ -235,7 +241,7 @@
         min-width: 95%;
     }
 
-    /*Main*/
+    /* Main */
     .site {
         main {  
             .wrapper-content {
@@ -332,7 +338,7 @@
         height: auto;
     }
 
-    /*Skills*/
+    /* Skills */
     .wrapper-skills {
         grid-template-rows: repeat(6, 1fr);
         grid-template-columns: repeat(4, 1fr);
@@ -344,7 +350,7 @@
         "skill5 skill5 skill5 skill5"
         "skill6 skill6 skill6 skill6";
     }
-    /*Services*/
+    /* Services */
     .wrapper-services {
         grid-template-rows: repeat(3, 1fr);
         grid-template-areas:
@@ -358,7 +364,7 @@
         }
     }
 
-    /*Projects*/
+    /* Projects */
     .wrapper-project-process {
         svg {
             display: none;
@@ -399,7 +405,7 @@
         margin: 2em 0;
     }
 
-    /*JS projects*/
+    /* JS projects */
     article {
         width: 80% !important;
     }
@@ -408,7 +414,11 @@
         flex-direction: column;
     }
 
-    /*Gallery*/
+    /* Gallery */
+    .wrapper-gallery {
+        grid-template-columns: 1fr !important;
+    } 
+
     .gallery-items img {
         width: 100%;
     }

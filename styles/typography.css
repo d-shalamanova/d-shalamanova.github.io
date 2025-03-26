@@ -24,8 +24,8 @@ h1 {
     margin: auto;
     padding: 0.8em 0.5em;
     color: #999;
-    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
-        1px 1px 0 #000;
+    text-shadow: -1px -1px 0 var(--black), 1px -1px 0 var(--black), -1px 1px 0 var(--black),
+        1px 1px 0 var(--black);
     font-family: "Merriweather", serif;
     letter-spacing: 3px;
 }
@@ -98,6 +98,10 @@ p, ul, ol {
     color: #323232;
 }
 
+p {
+    font-size: clamp(1rem, 2vw, 1.2rem);
+}
+
 .presentation {
     min-width: 85%;
     position: absolute;
@@ -107,7 +111,7 @@ p, ul, ol {
 }
 
 .headerParagraph {
-    box-shadow: 1px 4px 14px -6px #000;
+    box-shadow: 1px 4px 14px -6px var(--black);
     background: #ffffaa;
     padding: 0 0.5em;
     font-family: "Titillium Web", sans-serif;
@@ -129,8 +133,6 @@ ol {
     padding-left: 2%;
 
     li {
-        margin: 0 0 2em 2em;
-        display: block;
         position: relative;
         counter-increment: inst;
         padding-left: 1em;
@@ -142,7 +144,7 @@ ol {
             width: 1.35em;
             content: counter(inst);
             background: var(--title-color);
-            color: #fff;
+            color: var(--white);
             font-size: 1.5em;
             font-weight: 700;
             font-style: italic;

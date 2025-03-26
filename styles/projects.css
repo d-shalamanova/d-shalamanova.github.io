@@ -2,7 +2,7 @@
 
 .project-process {
     position: relative;
-    background: #fff url(/images/web-development-small.png) no-repeat center right/30%;
+    background: var(--white) url(/images/web-development-small.png) no-repeat center right/30%;
 
     &::before {
         content: "";
@@ -55,13 +55,13 @@
             flex: 1 0 60%;
             max-width: 60%;
             padding: 2em;
-            color: #fff;
+            color: var(--white);
 
             p {
                 padding-bottom: 1.3em;
                 line-height: 1.5;
                 font-size: 1.1em;
-                color: #fff;
+                color: var(--white);
             }
         }
 
@@ -71,7 +71,7 @@
             padding-block: 1em;
 
             h3, a {
-                color: #fff;
+                color: var(--white);
             }
         }
 

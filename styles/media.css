@@ -426,10 +426,6 @@
         grid-template-columns: 1fr !important;
     } 
 
-    .gallery-items img {
-        width: 100%;
-    }
-
     .footer-nav ul {
         gap: 1em;
     }

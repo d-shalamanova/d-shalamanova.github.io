@@ -21,6 +21,8 @@ html {
     --accent-color: darkgoldenrod;
     --secondary-color: rgba(53, 13, 130, 0.8);
     --title-color: #f7dddc;
+    --white: #fff;
+    --black: #000;
     --padding-sides: 3em;
     --padding-top-bottom: 4em;
     --gradient: linear-gradient(30deg, rgba(53, 13, 130, 0.9) 0%, rgba(128, 33, 181, 0.7) 100%);

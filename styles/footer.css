@@ -1,6 +1,6 @@
 /* Footer */
 .site-footer {
-    color: #fff;
+    color: var(--white);
     margin-top: -3em;
 
     .footer-wrapper {
@@ -22,7 +22,7 @@
     }
 
     a {
-        color: #fff;
+        color: var(--white);
         font-size: 1.1em;
 
         &:hover {
@@ -45,7 +45,7 @@
 
 .button > span {
     background-color: gray;
-    color: #fff;
+    color: var(--white);
     padding: 0.5em 1em;
     position: relative;
     z-index: 9;
@@ -53,7 +53,7 @@
 
 .footer-wrapper .trade-mark {
     font-size: 30px;
-    color: #fff;
+    color: var(--white);
     text-shadow: 0 0 10px #9c27b0;
     text-align: left;
     padding-top: 0;
@@ -61,6 +61,6 @@
 }
 
 p.made-by {
-    color: #fff;
+    color: var(--white);
     font-size: 0.7rem;
 }

@@ -32,7 +32,7 @@
         padding-top: 1rem;
         padding-bottom: 0;
         font-size: 1rem;
-        color: #fff;
+        color: var(--white);
 
         &::after {
             display: none;
@@ -41,7 +41,7 @@
 
     p {
         padding-bottom: 0;
-        color: #fff;
+        color: var(--white);
     }
 
     a {

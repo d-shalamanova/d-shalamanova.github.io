@@ -1,7 +1,12 @@
 /*Projects*/
+
+.project-process {
+    background: #fff url(/images/web-development.png) no-repeat center right/40%;
+}
 .wrapper-project-process {
     position: relative;
     padding: 2em;
+    max-width: 60%;
 
     h3 {
         padding-bottom: 1em;

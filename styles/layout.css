@@ -224,3 +224,66 @@ ul.services-list.wrapper-services li {
 #contacts .inner-wrapper-project {
     justify-content: center;
 }
+
+.contact-me {
+    background: url("/images/contact-background.png") no-repeat right;
+
+    .contact-form {
+        display: flex;
+        justify-content: center;
+        gap: 2rem;
+    
+    
+        input {
+            display: block;
+            color: #8799a3;
+            font-size: 16px;
+            height: 50px;
+            padding: 26px;
+            margin-bottom: 1rem;
+            border: solid 2px #eceef2;
+        }
+
+        textarea {
+            padding: 13px;
+            padding-left: 25px;
+            height: 200px;
+            color: #8799a3;
+            font-size: 16px;
+            border: solid 2px #eceef2;  
+        }
+    }
+}
+
+.button {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    border-radius: 5px;
+
+    a {
+        background: rgba(53, 13, 130, 0.8);
+        color: #fff;
+        padding: 0.5em 1em;
+        font-size: 1.1em;
+        box-shadow: 1px 2px 10px -7px rgb(0 0 0);
+        font-weight: 500;
+        border-radius: 5px;
+        
+
+        &:hover {
+            background: var(--title-color);
+            box-shadow: -1px -1px 0 #ccc, 1px -1px 0 #ccc, -1px 1px 0 #ccc,
+                1px 1px 0 #ccc;
+            
+            span {
+                color: rgba(53, 13, 130, 0.8);
+            }
+        }
+    }
+
+    svg {
+        width: 22px;
+        height: auto;
+    }
+}

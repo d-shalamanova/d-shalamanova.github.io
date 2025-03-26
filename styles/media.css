@@ -401,6 +401,10 @@
         }
     }
     
+    .contact-form {
+        flex-direction: column;
+        align-items: center;
+    }
     .button a {
         margin: 2em 0;
     }

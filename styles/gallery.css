@@ -6,10 +6,6 @@
     background: var(--gradient);
     grid-template-columns: 1fr 1fr 1fr;
     grid-auto-rows: 400px;
-
-    &.wrapper-content {
-        margin-bottom: 0 !important;
-    }
 }
 
 .gallery-items {

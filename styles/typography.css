@@ -31,7 +31,7 @@ h1 {
 }
 
 h2 {
-    color: darkgoldenrod;
+    color: var(--accent-color);
     padding-top: 0.5em;
     margin-bottom: 2em;
 }
@@ -72,7 +72,7 @@ h3::after {
 
 h3 {
     padding-bottom: 1em;
-    color: darkgoldenrod;
+    color: var(--accent-color);
 }
 
 h1 {
@@ -119,7 +119,7 @@ p, ul, ol {
     span {
         padding-bottom: 0;
         font-size: 2.2em;
-        color: rgba(53, 13, 130, 0.8);
+        color: var(--secondary-color);
     }
 }
 

@@ -1,4 +1,4 @@
-/*Main*/
+/* Main */
 .site {
     background: linear-gradient(30deg, rgba(53, 13, 130, 0.6) 30%, rgba(128, 33, 181, 0.2) 70%);
 
@@ -100,9 +100,33 @@
 }
 
 /*Skills*/
-.hard-list .carousel {
-    display: flex;
-    grid-gap: 1em 0;
+.wrapper-skills {
+
+    ul.hard-list {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        gap: 1em;
+        padding-top: 1.5rem;
+    
+        li {
+            svg {
+                width: 40px;
+                height: auto;
+                fill: var(--accent-color);
+                margin-right: 12px;
+            }
+        
+            span {
+                color: rgba(53, 13, 130, 1);
+                font-weight: 600;
+                font-size: 20px;
+                display: block;
+                line-height: 1.1;
+            }
+        }
+    }
+
 }
 
 ul.hard-list,
@@ -140,31 +164,7 @@ ul.services-list li {
     }
 }
 
-ul.hard-list {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    gap: 1em;
-
-    li {
-        svg {
-            width: 40px;
-            height: auto;
-            fill: goldenrod;
-            margin-right: 12px;
-        }
-    
-        span {
-            color: rgba(53, 13, 130, 1);
-            font-weight: 600;
-            font-size: 20px;
-            display: block;
-            line-height: 1.1;
-        }
-    }
-}
-
-/*Services*/
+/* Services */
 .wrapper-services {
     display: grid;
     grid-auto-columns: 1fr;
@@ -217,7 +217,7 @@ ul.services-list.wrapper-services li {
     }
 }
 
-/*Contacts*/
+/* Contacts */
 #contacts p {
     padding-bottom: 0;
 }
@@ -263,7 +263,7 @@ ul.services-list.wrapper-services li {
     padding-top: 1rem;
 
     a {
-        background: rgba(53, 13, 130, 0.8);
+        background: var(--secondary-color);
         color: #fff;
         padding: 0.5em 1em;
         font-size: 1.1em;
@@ -278,7 +278,7 @@ ul.services-list.wrapper-services li {
                 1px 1px 0 #ccc;
             
             span {
-                color: rgba(53, 13, 130, 0.8);
+                color: var(--secondary-color);
             }
         }
     }

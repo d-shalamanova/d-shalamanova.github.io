@@ -18,7 +18,8 @@ html {
 :root {
     --primary-color: #b7f7cd;
     --background-color: #505061;
-    --accent-color: #f6f7b7;
+    --accent-color: darkgoldenrod;
+    --secondary-color: rgba(53, 13, 130, 0.8);
     --title-color: #f7dddc;
     --padding-sides: 3em;
     --padding-top-bottom: 4em;

@@ -45,6 +45,6 @@
     }
 
     a {
-        color: darkgoldenrod;
+        color: var(--accent-color);
     }
 }

@@ -26,6 +26,19 @@ header {
             .wrapper-logo a {
                 display: table;
             }
+
+            .lng-bar {
+                display: flex;
+                gap: 1rem;
+                margin-left: 1rem;
+
+                svg {
+                    width: 2rem;
+                    height: auto;
+                    background-color: var(--title-color);
+                    border-radius: 3px
+                }
+            }
         }
     }
 }

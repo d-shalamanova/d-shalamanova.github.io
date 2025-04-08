@@ -45,8 +45,8 @@
         grid-template-columns: repeat(6, 1fr);
         grid-template-rows: 1fr 1fr;
         justify-items: center;
-        grid-template-areas:    "story story story media media media"
-                                "story story story media media media";
+        grid-template-areas:    "story story story story media media"
+                                "story story story story media media";
         grid-gap: 0 0;
         
         p {

@@ -34,7 +34,7 @@ header {
 
                 svg {
                     width: 2rem;
-                    height: auto;
+                    height: 2rem;
                     background-color: var(--title-color);
                     border-radius: 3px
                 }

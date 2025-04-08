@@ -24,6 +24,7 @@
     a {
         color: var(--white);
         font-size: 1.1em;
+        font-weight: 700;
 
         &:hover {
             text-shadow: 0 0 10px #9c27b0;

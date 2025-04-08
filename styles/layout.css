@@ -241,6 +241,9 @@ ul.services-list.wrapper-services li {
             margin-bottom: 1rem;
             border: solid 2px #eceef2;
         }
+        input:last-child {
+            margin-bottom: 0;
+        }
 
         textarea {
             padding: 13px;
@@ -258,7 +261,7 @@ ul.services-list.wrapper-services li {
     display: flex;
     justify-content: center;
     border-radius: 5px;
-    padding-top: 1rem;
+    padding-top: 2rem;
 
     a {
         background: var(--secondary-color);

@@ -203,7 +203,7 @@
                     justify-content: center;
                     
                     ul li {
-                        padding: 1em 0em;
+                        padding: 0em;
 
                         a {
                             padding: 0 0.5em;
@@ -368,6 +368,7 @@
     .wrapper-project-process {
         max-width: 100%;
         background-color: #ffffffdd;
+        padding: 0;
 
         svg {
             display: none;
@@ -426,7 +427,17 @@
         grid-template-columns: 1fr !important;
     } 
 
-    .footer-nav ul {
-        gap: 1em;
+    /* Footer */
+    .footer-wrapper {
+        flex-direction: column;
+        align-items: center !important;
+
+        .left-column {
+            padding-bottom: 1rem;
+            
+            .footer-nav ul {
+                gap: 1em;
+            }
+        }     
     }
 }

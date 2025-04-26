@@ -25,6 +25,7 @@ header {
 
             .wrapper-logo a {
                 display: table;
+                line-height: 0;
             }
 
             .lng-bar {
@@ -32,17 +33,23 @@ header {
                 gap: 1rem;
                 margin-left: 1rem;
 
-                svg {
-                    width: 2rem;
-                    height: 2rem;
-                    background-color: var(--title-color);
-                    background-color: rgba(53, 13, 130, 0.4);
-                    border-radius: 3px
+                a {
+                    line-height: 0;
+
+                    svg {
+                        width: 2rem;
+                        height: 2rem;
+                        background-color: var(--title-color);
+                        background-color: rgba(53, 13, 130, 0.4);
+                        border-radius: 3px
+                    }
+
+                    &.active svg {
+                        background: rgba(128, 33, 181, 0.7);
+                    }
                 }
 
-                a.active svg {
-                    background: rgba(128, 33, 181, 0.7);
-                }
+
             }
         }
     }

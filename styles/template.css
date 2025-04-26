@@ -9,11 +9,11 @@
         padding: 1rem;
         border: 1px solid lightgrey;
     }
-    
+
     h3 {
         padding-bottom: 3em;
     }
-    
+
     h4 {
         margin: 1% auto;
         text-align: center;
@@ -47,7 +47,7 @@
         word-wrap: break-word;
         font-size: 1em;
     }
-    
+
     #output p {
         border-bottom: 1px solid lightgrey;
 

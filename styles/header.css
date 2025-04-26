@@ -36,7 +36,12 @@ header {
                     width: 2rem;
                     height: 2rem;
                     background-color: var(--title-color);
+                    background-color: rgba(53, 13, 130, 0.4);
                     border-radius: 3px
+                }
+
+                a.active svg {
+                    background: rgba(128, 33, 181, 0.7);
                 }
             }
         }

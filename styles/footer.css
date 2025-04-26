@@ -11,9 +11,12 @@
         align-items: flex-end;
         justify-content: center;
 
-        .left-column,
+        .left-column {
+            flex: 1 0 55%;
+        }
+
         .right-column {
-        flex: 1 0 50%;
+            flex: 1 0 45%;
         }
 
         .right-column {

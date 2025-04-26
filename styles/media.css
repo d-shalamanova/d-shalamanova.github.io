@@ -9,7 +9,7 @@
             font-size: 1em;
             padding: 0.5em;
         }
-        
+
         .site-nav ul li a {
             font-size: 1.5em;
         }
@@ -37,7 +37,7 @@
     .site-wrapper .site-title {
         padding: 0.8em;
     }
-    
+
     /* Lists */
     ul {
         font-size: 15px;
@@ -51,7 +51,6 @@
                 width: 34px;
             }
         }
-        
     }
 
     span {
@@ -68,11 +67,6 @@
         "skill3 skill3 skill3 skill3 skill4 skill4 skill4 skill4"
         "skill5 skill5 skill5 skill5 skill6 skill6 skill6 skill6";
     }
-
-    /* JS projects */
-    article {
-        width: 60% !important;
-    }
 }
 
 /* Desktop */
@@ -80,13 +74,13 @@
     /* Header */
     header {
         padding-top: 50vh;
-        
+
         .site-header p {
             font-size: 1em;
             line-height: 1.1;
             padding: 0.5em;
         }
-        
+
         .site-logo {
             padding-right: 0;
             padding-bottom: 0.5em;
@@ -108,14 +102,14 @@
     }
 
     .headerParagraph span {
-        font-size: 1.8em;
+        font-size: 1.5em;
         line-height: 1.3;
     }
 
     .wrapper-content {
-        margin-bottom: 4em;
+        margin-bottom: 0 !important;
     }
-    
+
     ol li {
         font-size: 0.8em;
     }
@@ -125,11 +119,10 @@
     }
 
     .grid-my-story {
-        grid-template-rows: 0.8fr 1fr 1fr;
+        grid-template-rows: 0.8fr 1fr !important;
         grid-template-areas:
         "media media media media media media"
-        "story story story story story story"
-        "only-story only-story only-story only-story only-story only-story";
+        "story story story story story story" !important;
     }
 
     .wrapper-media {
@@ -145,7 +138,7 @@
             span {
                 font-size: 21px;
             }
-        
+
             svg {
                 width: 34px;
             }
@@ -175,15 +168,25 @@
         "service3 service3 service3 service3 service3 service3";
     }
 
-    /* JS projects */
-    article {
-        width: 60% !important;
+    /* Projects */
+    .wrapper-project-process {
+        max-width: 100%;
+        padding: 0;
+
+    }
+    .wrapper-project {
+        .project-text,
+        .project-media {
+            flex: 1 0 50% !important;
+            max-width: 50% !important;
+            padding: 0;
+        }
     }
 
     /* Gallery */
     .wrapper-gallery {
         grid-template-columns: 1fr 1fr !important;
-    } 
+    }
 }
 
 /* Tablet */
@@ -201,7 +204,7 @@
 
                 .site-nav {
                     justify-content: center;
-                    
+
                     ul li {
                         padding: 0em;
 
@@ -224,13 +227,13 @@
         margin-bottom: 15px;
         font-size: 1.2em;
     }
-    
+
     .headerParagraph {
         p {
             font-size: 1.5em;
             line-height: 1;
         }
-        
+
         span {
             font-size: 1.5em;
             line-height: 1;
@@ -243,28 +246,28 @@
 
     /* Main */
     .site {
-        main {  
+        main {
             .wrapper-content {
                 margin-bottom: 2em;
                 padding: 1em;
-    
+
                 .wrapper-text,
                 .wrapper-media {
                     flex: 1 0 100%;
                     min-width: 100%;
                 }
-    
+
                 .wrapper-text {
                     margin-right: 0;
                     padding: 0.5em;
                 }
-    
+
                 .wrapper-media {
                     align-self: center;
                     grid-area: media;
                     align-self: center;
                 }
-    
+
                 .background-layer {
                     grid-column: 1 / 7;
                 }
@@ -282,7 +285,6 @@
             "story story story story story story";
             grid-template-rows: 0.5fr 1fr;
         }
-        
     }
 
     .site-wrapper .site-title {
@@ -326,7 +328,7 @@
     .slick-next {
         width: 20px !important;
         height: 20px !important;
-        
+
         &::before,
         &::before {
             font-size: 20px !important;
@@ -377,7 +379,7 @@
     .wrapper-project {
         .project-info {
             flex-direction: column;
-        
+
             .project-text,
             .project-media {
                 flex: 1 0 100%;
@@ -393,10 +395,10 @@
 
         .carousel {
             padding: 0;
-            
+
             .slick-slide img {
                 transform: none;
-        
+
                 img:hover {
                     transform: none;
                     transition: none;
@@ -404,7 +406,7 @@
             }
         }
     }
-    
+
     .contact-form {
         flex-direction: column;
         align-items: center;
@@ -413,19 +415,10 @@
         margin: 2em 0;
     }
 
-    /* JS projects */
-    article {
-        width: 80% !important;
-    }
-
-    .wrapper-js-links {
-        flex-direction: column;
-    }
-
     /* Gallery */
     .wrapper-gallery {
         grid-template-columns: 1fr !important;
-    } 
+    }
 
     /* Footer */
     .footer-wrapper {
@@ -434,10 +427,10 @@
 
         .left-column {
             padding-bottom: 1rem;
-            
+
             .footer-nav ul {
                 gap: 1em;
             }
-        }     
+        }
     }
 }
